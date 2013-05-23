@@ -1,0 +1,362 @@
+/* ==========================================================================
+   my custom styles
+   ========================================================================== */
+/* import animation keyframes */
+/* animation keyframes */
+@-webkit-keyframes fade-in {
+  /* line 28, _keyframes.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 29, _keyframes.scss */
+  50% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes fade-in {
+  /* line 28, _keyframes.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 29, _keyframes.scss */
+  50% {
+    opacity: 0;
+  }
+}
+
+@-ms-keyframes fade-in {
+  /* line 28, _keyframes.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 29, _keyframes.scss */
+  50% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes fade-in {
+  /* line 28, _keyframes.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 29, _keyframes.scss */
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-in {
+  /* line 28, _keyframes.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 29, _keyframes.scss */
+  50% {
+    opacity: 0;
+  }
+}
+
+/* /animation keyframes */
+/* /import animation keyframes */
+/* helper styles */
+/* line 49, style.scss */
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+/* line 60, style.scss */
+.relative-container {
+  position: relative;
+}
+
+/* /helper styles */
+/* general page styles */
+/* line 68, style.scss */
+html {
+  background-color: #3a3a3a;
+}
+
+/* line 72, style.scss */
+html.delayed {
+  background-image: url(http://shapedance.beautifuluniquesnowflake.com/assets/images/low_contrast_linen.png);
+}
+
+/* line 76, style.scss */
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  color: whitesmoke;
+}
+
+/* line 85, style.scss */
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #ebebeb;
+}
+/* line 90, style.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* pbjCarousel plugin styles */
+/* line 97, style.scss */
+.pbj-viewport {
+  position: relative;
+  height: 400px;
+  overflow: scroll;
+  border-style: solid;
+  border-radius: 4px;
+  -webkit-transition: height 0.5s ease-in-out;
+  -moz-transition: height 0.5s ease-in-out;
+  -ms-transition: height 0.5s ease-in-out;
+  -o-transition: height 0.5s ease-in-out;
+  transition: height 0.5s ease-in-out;
+  -webkit-animation: fade-in 0.5s ease-in-out;
+  -moz-animation: fade-in 0.5s ease-in-out;
+  -ms-animation: fade-in 0.5s ease-in-out;
+  -o-animation: fade-in 0.5s ease-in-out;
+  animation: fade-in 0.5s ease-in-out;
+}
+
+/* line 111, style.scss */
+.pbj-inner {
+  width: 300%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-animation: fade-in 1.25s ease-in-out;
+  -moz-animation: fade-in 1.25s ease-in-out;
+  -ms-animation: fade-in 1.25s ease-in-out;
+  -o-animation: fade-in 1.25s ease-in-out;
+  animation: fade-in 1.25s ease-in-out;
+  -webkit-transform: translate3d(-33.333%, -33.333%, 0);
+  -moz-transform: translate3d(-33.333%, -33.333%, 0);
+  -ms-transform: translate3d(-33.333%, -33.333%, 0);
+  -o-transform: translate3d(-33.333%, -33.333%, 0);
+  transform: translate3d(-33.333%, -33.333%, 0);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+/* line 14, style.scss */
+.pbj-inner:after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+}
+
+/* line 129, style.scss */
+.pbj-move-up,
+.pbj-move-down,
+.pbj-move-left,
+.pbj-move-right {
+  -webkit-transition: -webkit-transform 1000ms;
+  -moz-transition: -moz-transform 1000ms;
+  -ms-transition: -ms-transform 1000ms;
+  -o-transition: -o-transform 1000ms;
+  transition: transform 1000ms;
+}
+
+/* line 137, style.scss */
+.pbj-move-up {
+  -webkit-transform: translate3d(-33.333%, 0, 0);
+  -moz-transform: translate3d(-33.333%, 0, 0);
+  -ms-transform: translate3d(-33.333%, 0, 0);
+  -o-transform: translate3d(-33.333%, 0, 0);
+  transform: translate3d(-33.333%, 0, 0);
+}
+/* line 140, style.scss */
+.pbj-move-up .pbj-img-container:first-child {
+  visibility: visible;
+}
+
+/* line 145, style.scss */
+.pbj-move-down {
+  -webkit-transform: translate3d(-33.333%, -66.666%, 0);
+  -moz-transform: translate3d(-33.333%, -66.666%, 0);
+  -ms-transform: translate3d(-33.333%, -66.666%, 0);
+  -o-transform: translate3d(-33.333%, -66.666%, 0);
+  transform: translate3d(-33.333%, -66.666%, 0);
+}
+/* line 148, style.scss */
+.pbj-move-down .pbj-img-container:last-child {
+  visibility: visible;
+}
+
+/* line 153, style.scss */
+.pbj-move-left {
+  -webkit-transform: translate3d(0%, -33.333%, 0);
+  -moz-transform: translate3d(0%, -33.333%, 0);
+  -ms-transform: translate3d(0%, -33.333%, 0);
+  -o-transform: translate3d(0%, -33.333%, 0);
+  transform: translate3d(0%, -33.333%, 0);
+}
+/* line 156, style.scss */
+.pbj-move-left .pbj-img-container:nth-child(2) {
+  visibility: visible;
+}
+
+/* line 161, style.scss */
+.pbj-move-right {
+  -webkit-transform: translate3d(-66.666%, -33.333%, 0);
+  -moz-transform: translate3d(-66.666%, -33.333%, 0);
+  -ms-transform: translate3d(-66.666%, -33.333%, 0);
+  -o-transform: translate3d(-66.666%, -33.333%, 0);
+  transform: translate3d(-66.666%, -33.333%, 0);
+}
+/* line 164, style.scss */
+.pbj-move-right .pbj-img-container:nth-child(4) {
+  visibility: visible;
+}
+
+/* line 169, style.scss */
+.pbj-img-container {
+  display: block;
+  float: left;
+  text-align: center;
+  visibility: hidden;
+}
+/* line 175, style.scss */
+.pbj-img-container:nth-child(3) {
+  visibility: visible;
+}
+/* line 180, style.scss */
+.pbj-img-container:first-child, .pbj-img-container:last-child {
+  padding: 0 33.333%;
+}
+
+/* line 187, style.scss */
+.pbj-img {
+  display: block;
+  position: relative;
+}
+
+/* tap target styles */
+/* line 194, style.scss */
+.pbj-tap-map {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 202, style.scss */
+.pbj-tap {
+  position: absolute;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* line 211, style.scss */
+.pbj-tap-e,
+.pbj-tap-n-2,
+.pbj-tap-s-2 {
+  left: 50%;
+}
+
+/* line 216, style.scss */
+.pbj-tap-w,
+.pbj-tap-e {
+  width: 50%;
+  height: 100%;
+}
+
+/* line 222, style.scss */
+.pbj-tap-n,
+.pbj-tap-s {
+  width: 100%;
+  height: 50%;
+}
+
+/* line 230, style.scss */
+.pbj-tap-n-1,
+.pbj-tap-n-2,
+.pbj-tap-s-1,
+.pbj-tap-s-2 {
+  width: 25%;
+  height: 33.333%;
+}
+
+/* line 239, style.scss */
+.pbj-shaped.pbj-tap-n-1, .pbj-shaped.pbj-tap-n-2, .pbj-shaped.pbj-tap-s-1, .pbj-shaped.pbj-tap-s-2 {
+  width: 50%;
+  height: 50%;
+}
+
+/* line 247, style.scss */
+.pbj-tap-n-1,
+.pbj-tap-s-1 {
+  right: 50%;
+  -webkit-transform-origin-x: right;
+}
+
+/* line 253, style.scss */
+.pbj-tap-n-2,
+.pbj-tap-s-2 {
+  -webkit-transform-origin-x: left;
+}
+
+/* line 257, style.scss */
+.pbj-tap-w {
+  cursor: w-resize;
+}
+
+/* line 261, style.scss */
+.pbj-tap-e {
+  cursor: e-resize;
+}
+
+/* line 265, style.scss */
+.pbj-tap-n {
+  -webkit-transform-origin-y: bottom;
+  cursor: n-resize;
+}
+
+/* line 270, style.scss */
+.pbj-tap-s {
+  bottom: 0;
+  -webkit-transform-origin-y: top;
+  cursor: s-resize;
+}
+
+/* /tap target styles */
+/* /pbjCarousel plugin styles */
+/* state-specific styles */
+/* /state-specific styles */
+/* dev */
+/* line 292, style.scss */
+body {
+  padding: 1em;
+}
+
+/* /dev */
+/* /general page styles */
+/* responsive media queries */
+@media (min-width: 1025px) {
+  /* if larger than typical tablet display, aka desktop styles */
+}
+@media (max-width: 480px) {
+  /* if smaller or equal to typical phone display, aka phone styles */
+}

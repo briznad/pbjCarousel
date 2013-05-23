@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>pbjCarousel</title>
+        <meta name="description" content="horizontal and vertical slideshow carousel">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <!-- dev only -->
+        <link rel="stylesheet" type="text/css" href="assets/css/local/style.css">
+
+
+    	<!-- prod
+    	<link rel="stylesheet" type="text/css" href="assets/css/css.cat.min.css">
+		-->
+
+	</head>
+    <body>
+
+    	<div id="carousel" class="carousel">
+    		<ul class="horizontal" data-pbj-direction="horizontal">
+    			<li><img src="http://placekitten.com/g/600/400" alt="kitten test 1"></li>
+    			<li><img src="http://placekitten.com/700/300"></li>
+    			<li><img src="http://placekitten.com/580/380" alt=""></li>
+    			<li><img src="http://placekitten.com/600/400"></li>
+    			<li><img src="http://placekitten.com/g/580/380" alt="kitten"></li>
+    		</ul>
+    		<ul>
+    			<li><img src="http://placepuppy.it/600/400" alt="puppy test 1"></li>
+    			<li><img src="http://placepuppy.it/700/300"></li>
+    			<li><img src="http://placepuppy.it/580/380" alt=""></li>
+    			<li><img src="http://placepuppy.it/600/400"></li>
+    			<li><img src="http://placepuppy.it/580/380" alt="puppy"></li>
+    		</ul>
+    	</div>
+
+    	<!--
+    	<div id="carousel" class="carousel">
+    		<div data-pbj-direction="horizontal">
+	    		<section><img src="assets/images/kitten-1.jpg" alt="kitten 1"></section>
+	    		<section><img src="assets/images/kitten-2.jpg" alt="kitten 2"></section>
+	    		<section><img src="assets/images/kitten-3.jpg"></section>
+	    	</div>
+    	</div>
+	    -->
+
+    	<!--
+
+		<hr>
+
+    	<div class="pbj-viewport">
+    		<div class="pbj-inner" style="width: 300%;">
+	    		<section class="pbj-img-container"><img class="pbj-img" src="assets/images/kitten-1.jpg" alt="kitten 1"></section>
+	    		<section class="pbj-img-container"><img class="pbj-img" src="assets/images/kitten-2.jpg" alt="kitten 2"></section>
+	    		<section class="pbj-img-container"><img class="pbj-img" src="assets/images/kitten-3.jpg" alt="kitten 3"></section>
+	    	</div>
+    	</div>
+
+
+		-->
+
+        <!--[if lt IE 9]>
+            <p class="chromeframe" style="position: fixed; width: 100%; top: 0; margin: 0; padding: 15px; text-align: center; background-color: #555;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+	    <script src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"></script>
+        <script>window.Zepto || document.write('<script src="assets/js/plugins/zepto.min.js"><\/script>')</script>
+
+	    <!-- dev only -->
+        <script src="assets/js/plugins/jquery.zepto-touch.js"></script>
+        <script src="assets/js/plugins/jquery.pbjcarousel.js"></script>
+        <script src="assets/js/local/do.js"></script>
+
+
+        <!-- prod
+        <script src="assets/js/js.cat.min.js"></script>
+		-->
+
+        <script>
+            var _gaq=[['_setAccount','UA-36834242-1'],['_setDomainName', 'beautifuluniquesnowflake.com'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+// mixins
+
+@mixin keyframe($name) {
+	@-webkit-keyframes #{$name} {
+		@content;
+	}
+
+	@-moz-keyframes #{$name} {
+		@content;
+	}
+
+	@-ms-keyframes #{$name} {
+		@content;
+	}
+
+	@-o-keyframes #{$name} {
+		@content;
+	}
+
+	@keyframes #{$name} {
+		@content;
+	}
+}
+
+/* animation keyframes */
+
+@include keyframe(fade-in) {
+	0%	{	opacity: 0;	}
+	50%	{	opacity: 0;	}
+}
+
+/* /animation keyframes */

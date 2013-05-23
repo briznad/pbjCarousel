@@ -1,0 +1,5140 @@
+/* ==========================================================================
+   my custom styles
+   ========================================================================== */
+/* helper styles */
+/* line 37, style.scss */
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden; }
+
+/* line 48, style.scss */
+.relative-container {
+  position: relative; }
+
+/* /helper styles */
+/* import animation keyframes */
+/* animation keyframes */
+@-webkit-keyframes fade-in {
+  /* line 28, _keyframes.scss */
+  from {
+    opacity: 0; }
+
+  /* line 29, _keyframes.scss */
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes fade-in {
+  /* line 32, _keyframes.scss */
+  from {
+    opacity: 0; }
+
+  /* line 33, _keyframes.scss */
+  to {
+    opacity: 1; } }
+
+@-o-keyframes fade-in {
+  /* line 36, _keyframes.scss */
+  from {
+    opacity: 0; }
+
+  /* line 37, _keyframes.scss */
+  to {
+    opacity: 1; } }
+
+@keyframes fade-in {
+  /* line 40, _keyframes.scss */
+  from {
+    opacity: 0; }
+
+  /* line 41, _keyframes.scss */
+  to {
+    opacity: 1; } }
+
+/* dance floor */
+@-webkit-keyframes dance-floor {
+  /* line 47, _keyframes.scss */
+  from {
+    box-shadow: 0 0 25px #fff; }
+
+  /* line 48, _keyframes.scss */
+  10% {
+    box-shadow: 0 0 20px #fff; }
+
+  /* line 49, _keyframes.scss */
+  40% {
+    box-shadow: 0 0 20px #fff; }
+
+  /* line 50, _keyframes.scss */
+  50% {
+    box-shadow: 0 0 30px #fff; }
+
+  /* line 51, _keyframes.scss */
+  60% {
+    box-shadow: 0 0 20px #fff; }
+
+  /* line 52, _keyframes.scss */
+  90% {
+    box-shadow: 0 0 20px #fff; }
+
+  /* line 53, _keyframes.scss */
+  100% {
+    box-shadow: 0 0 25px #fff; } }
+
+@-moz-keyframes dance-floor {
+  /* line 47, _keyframes.scss */
+  from {
+    box-shadow: 0 0 25px #fff; }
+
+  /* line 48, _keyframes.scss */
+  10% {
+    box-shadow: 0 0 20px #fff; }
+
+  /* line 49, _keyframes.scss */
+  40% {
+    box-shadow: 0 0 20px #fff; }
+
+  /* line 50, _keyframes.scss */
+  50% {
+    box-shadow: 0 0 30px #fff; }
+
+  /* line 51, _keyframes.scss */
+  60% {
+    box-shadow: 0 0 20px #fff; }
+
+  /* line 52, _keyframes.scss */
+  90% {
+    box-shadow: 0 0 20px #fff; }
+
+  /* line 53, _keyframes.scss */
+  100% {
+    box-shadow: 0 0 25px #fff; } }
+
+@-ms-keyframes dance-floor {
+  /* line 47, _keyframes.scss */
+  from {
+    box-shadow: 0 0 25px #fff; }
+
+  /* line 48, _keyframes.scss */
+  10% {
+    box-shadow: 0 0 20px #fff; }
+
+  /* line 49, _keyframes.scss */
+  40% {
+    box-shadow: 0 0 20px #fff; }
+
+  /* line 50, _keyframes.scss */
+  50% {
+    box-shadow: 0 0 30px #fff; }
+
+  /* line 51, _keyframes.scss */
+  60% {
+    box-shadow: 0 0 20px #fff; }
+
+  /* line 52, _keyframes.scss */
+  90% {
+    box-shadow: 0 0 20px #fff; }
+
+  /* line 53, _keyframes.scss */
+  100% {
+    box-shadow: 0 0 25px #fff; } }
+
+@-o-keyframes dance-floor {
+  /* line 47, _keyframes.scss */
+  from {
+    box-shadow: 0 0 25px #fff; }
+
+  /* line 48, _keyframes.scss */
+  10% {
+    box-shadow: 0 0 20px #fff; }
+
+  /* line 49, _keyframes.scss */
+  40% {
+    box-shadow: 0 0 20px #fff; }
+
+  /* line 50, _keyframes.scss */
+  50% {
+    box-shadow: 0 0 30px #fff; }
+
+  /* line 51, _keyframes.scss */
+  60% {
+    box-shadow: 0 0 20px #fff; }
+
+  /* line 52, _keyframes.scss */
+  90% {
+    box-shadow: 0 0 20px #fff; }
+
+  /* line 53, _keyframes.scss */
+  100% {
+    box-shadow: 0 0 25px #fff; } }
+
+@keyframes dance-floor {
+  /* line 47, _keyframes.scss */
+  from {
+    box-shadow: 0 0 25px #fff; }
+
+  /* line 48, _keyframes.scss */
+  10% {
+    box-shadow: 0 0 20px #fff; }
+
+  /* line 49, _keyframes.scss */
+  40% {
+    box-shadow: 0 0 20px #fff; }
+
+  /* line 50, _keyframes.scss */
+  50% {
+    box-shadow: 0 0 30px #fff; }
+
+  /* line 51, _keyframes.scss */
+  60% {
+    box-shadow: 0 0 20px #fff; }
+
+  /* line 52, _keyframes.scss */
+  90% {
+    box-shadow: 0 0 20px #fff; }
+
+  /* line 53, _keyframes.scss */
+  100% {
+    box-shadow: 0 0 25px #fff; } }
+
+/* /dance floor */
+/* row 1 */
+/* cell 1 */
+@-webkit-keyframes row-1-cell-1 {
+  /* line 63, _keyframes.scss */
+  50% {
+    top: 82px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 67, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(450deg);
+    -moz-transform: rotate(450deg);
+    -ms-transform: rotate(450deg);
+    -o-transform: rotate(450deg);
+    transform: rotate(450deg); } }
+
+@-moz-keyframes row-1-cell-1 {
+  /* line 63, _keyframes.scss */
+  50% {
+    top: 82px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 67, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(450deg);
+    -moz-transform: rotate(450deg);
+    -ms-transform: rotate(450deg);
+    -o-transform: rotate(450deg);
+    transform: rotate(450deg); } }
+
+@-ms-keyframes row-1-cell-1 {
+  /* line 63, _keyframes.scss */
+  50% {
+    top: 82px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 67, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(450deg);
+    -moz-transform: rotate(450deg);
+    -ms-transform: rotate(450deg);
+    -o-transform: rotate(450deg);
+    transform: rotate(450deg); } }
+
+@-o-keyframes row-1-cell-1 {
+  /* line 63, _keyframes.scss */
+  50% {
+    top: 82px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 67, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(450deg);
+    -moz-transform: rotate(450deg);
+    -ms-transform: rotate(450deg);
+    -o-transform: rotate(450deg);
+    transform: rotate(450deg); } }
+
+@keyframes row-1-cell-1 {
+  /* line 63, _keyframes.scss */
+  50% {
+    top: 82px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 67, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(450deg);
+    -moz-transform: rotate(450deg);
+    -ms-transform: rotate(450deg);
+    -o-transform: rotate(450deg);
+    transform: rotate(450deg); } }
+
+/* /cell 1 */
+/* cell 2 */
+@-webkit-keyframes row-1-cell-2 {
+  /* line 75, _keyframes.scss */
+  20% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 76, _keyframes.scss */
+  26.666% {
+    left: 124px; }
+
+  /* line 77, _keyframes.scss */
+  50% {
+    left: 166px; }
+
+  /* line 78, _keyframes.scss */
+  55% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 79, _keyframes.scss */
+  73.333% {
+    left: 166px; }
+
+  /* line 80, _keyframes.scss */
+  80% {
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+    transform: rotate(25deg); }
+
+  /* line 81, _keyframes.scss */
+  90% {
+    -webkit-transform: rotate(-9deg);
+    -moz-transform: rotate(-9deg);
+    -ms-transform: rotate(-9deg);
+    -o-transform: rotate(-9deg);
+    transform: rotate(-9deg); }
+
+  /* line 82, _keyframes.scss */
+  95% {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
+
+@-moz-keyframes row-1-cell-2 {
+  /* line 75, _keyframes.scss */
+  20% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 76, _keyframes.scss */
+  26.666% {
+    left: 124px; }
+
+  /* line 77, _keyframes.scss */
+  50% {
+    left: 166px; }
+
+  /* line 78, _keyframes.scss */
+  55% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 79, _keyframes.scss */
+  73.333% {
+    left: 166px; }
+
+  /* line 80, _keyframes.scss */
+  80% {
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+    transform: rotate(25deg); }
+
+  /* line 81, _keyframes.scss */
+  90% {
+    -webkit-transform: rotate(-9deg);
+    -moz-transform: rotate(-9deg);
+    -ms-transform: rotate(-9deg);
+    -o-transform: rotate(-9deg);
+    transform: rotate(-9deg); }
+
+  /* line 82, _keyframes.scss */
+  95% {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
+
+@-ms-keyframes row-1-cell-2 {
+  /* line 75, _keyframes.scss */
+  20% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 76, _keyframes.scss */
+  26.666% {
+    left: 124px; }
+
+  /* line 77, _keyframes.scss */
+  50% {
+    left: 166px; }
+
+  /* line 78, _keyframes.scss */
+  55% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 79, _keyframes.scss */
+  73.333% {
+    left: 166px; }
+
+  /* line 80, _keyframes.scss */
+  80% {
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+    transform: rotate(25deg); }
+
+  /* line 81, _keyframes.scss */
+  90% {
+    -webkit-transform: rotate(-9deg);
+    -moz-transform: rotate(-9deg);
+    -ms-transform: rotate(-9deg);
+    -o-transform: rotate(-9deg);
+    transform: rotate(-9deg); }
+
+  /* line 82, _keyframes.scss */
+  95% {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
+
+@-o-keyframes row-1-cell-2 {
+  /* line 75, _keyframes.scss */
+  20% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 76, _keyframes.scss */
+  26.666% {
+    left: 124px; }
+
+  /* line 77, _keyframes.scss */
+  50% {
+    left: 166px; }
+
+  /* line 78, _keyframes.scss */
+  55% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 79, _keyframes.scss */
+  73.333% {
+    left: 166px; }
+
+  /* line 80, _keyframes.scss */
+  80% {
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+    transform: rotate(25deg); }
+
+  /* line 81, _keyframes.scss */
+  90% {
+    -webkit-transform: rotate(-9deg);
+    -moz-transform: rotate(-9deg);
+    -ms-transform: rotate(-9deg);
+    -o-transform: rotate(-9deg);
+    transform: rotate(-9deg); }
+
+  /* line 82, _keyframes.scss */
+  95% {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
+
+@keyframes row-1-cell-2 {
+  /* line 75, _keyframes.scss */
+  20% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 76, _keyframes.scss */
+  26.666% {
+    left: 124px; }
+
+  /* line 77, _keyframes.scss */
+  50% {
+    left: 166px; }
+
+  /* line 78, _keyframes.scss */
+  55% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 79, _keyframes.scss */
+  73.333% {
+    left: 166px; }
+
+  /* line 80, _keyframes.scss */
+  80% {
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+    transform: rotate(25deg); }
+
+  /* line 81, _keyframes.scss */
+  90% {
+    -webkit-transform: rotate(-9deg);
+    -moz-transform: rotate(-9deg);
+    -ms-transform: rotate(-9deg);
+    -o-transform: rotate(-9deg);
+    transform: rotate(-9deg); }
+
+  /* line 82, _keyframes.scss */
+  95% {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
+
+@-webkit-keyframes row-1-cell-2-after {
+  /* line 86, _keyframes.scss */
+  20% {
+    bottom: 100%; }
+
+  /* line 87, _keyframes.scss */
+  35% {
+    bottom: 50%; }
+
+  /* line 88, _keyframes.scss */
+  80% {
+    bottom: 50%; } }
+
+@-moz-keyframes row-1-cell-2-after {
+  /* line 86, _keyframes.scss */
+  20% {
+    bottom: 100%; }
+
+  /* line 87, _keyframes.scss */
+  35% {
+    bottom: 50%; }
+
+  /* line 88, _keyframes.scss */
+  80% {
+    bottom: 50%; } }
+
+@-ms-keyframes row-1-cell-2-after {
+  /* line 86, _keyframes.scss */
+  20% {
+    bottom: 100%; }
+
+  /* line 87, _keyframes.scss */
+  35% {
+    bottom: 50%; }
+
+  /* line 88, _keyframes.scss */
+  80% {
+    bottom: 50%; } }
+
+@-o-keyframes row-1-cell-2-after {
+  /* line 86, _keyframes.scss */
+  20% {
+    bottom: 100%; }
+
+  /* line 87, _keyframes.scss */
+  35% {
+    bottom: 50%; }
+
+  /* line 88, _keyframes.scss */
+  80% {
+    bottom: 50%; } }
+
+@keyframes row-1-cell-2-after {
+  /* line 86, _keyframes.scss */
+  20% {
+    bottom: 100%; }
+
+  /* line 87, _keyframes.scss */
+  35% {
+    bottom: 50%; }
+
+  /* line 88, _keyframes.scss */
+  80% {
+    bottom: 50%; } }
+
+/* /cell 2 */
+/* cell 3 */
+@-webkit-keyframes row-1-cell-3 {
+  /* line 96, _keyframes.scss */
+  56.666% {
+    -webkit-transform: rotate(100deg);
+    -moz-transform: rotate(100deg);
+    -ms-transform: rotate(100deg);
+    -o-transform: rotate(100deg);
+    transform: rotate(100deg); }
+
+  /* line 97, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-moz-keyframes row-1-cell-3 {
+  /* line 96, _keyframes.scss */
+  56.666% {
+    -webkit-transform: rotate(100deg);
+    -moz-transform: rotate(100deg);
+    -ms-transform: rotate(100deg);
+    -o-transform: rotate(100deg);
+    transform: rotate(100deg); }
+
+  /* line 97, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-ms-keyframes row-1-cell-3 {
+  /* line 96, _keyframes.scss */
+  56.666% {
+    -webkit-transform: rotate(100deg);
+    -moz-transform: rotate(100deg);
+    -ms-transform: rotate(100deg);
+    -o-transform: rotate(100deg);
+    transform: rotate(100deg); }
+
+  /* line 97, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-o-keyframes row-1-cell-3 {
+  /* line 96, _keyframes.scss */
+  56.666% {
+    -webkit-transform: rotate(100deg);
+    -moz-transform: rotate(100deg);
+    -ms-transform: rotate(100deg);
+    -o-transform: rotate(100deg);
+    transform: rotate(100deg); }
+
+  /* line 97, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes row-1-cell-3 {
+  /* line 96, _keyframes.scss */
+  56.666% {
+    -webkit-transform: rotate(100deg);
+    -moz-transform: rotate(100deg);
+    -ms-transform: rotate(100deg);
+    -o-transform: rotate(100deg);
+    transform: rotate(100deg); }
+
+  /* line 97, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+/* /cell 3 */
+/* cell 4 */
+@-webkit-keyframes row-1-cell-4 {
+  /* line 105, _keyframes.scss */
+  26.666% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 82px; }
+
+  /* line 109, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 82px; } }
+
+@-moz-keyframes row-1-cell-4 {
+  /* line 105, _keyframes.scss */
+  26.666% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 82px; }
+
+  /* line 109, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 82px; } }
+
+@-ms-keyframes row-1-cell-4 {
+  /* line 105, _keyframes.scss */
+  26.666% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 82px; }
+
+  /* line 109, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 82px; } }
+
+@-o-keyframes row-1-cell-4 {
+  /* line 105, _keyframes.scss */
+  26.666% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 82px; }
+
+  /* line 109, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 82px; } }
+
+@keyframes row-1-cell-4 {
+  /* line 105, _keyframes.scss */
+  26.666% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 82px; }
+
+  /* line 109, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 82px; } }
+
+@-webkit-keyframes row-1-cell-4-after {
+  /* line 116, _keyframes.scss */
+  63.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 117, _keyframes.scss */
+  91.666% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 118, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); } }
+
+@-moz-keyframes row-1-cell-4-after {
+  /* line 116, _keyframes.scss */
+  63.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 117, _keyframes.scss */
+  91.666% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 118, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); } }
+
+@-ms-keyframes row-1-cell-4-after {
+  /* line 116, _keyframes.scss */
+  63.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 117, _keyframes.scss */
+  91.666% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 118, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); } }
+
+@-o-keyframes row-1-cell-4-after {
+  /* line 116, _keyframes.scss */
+  63.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 117, _keyframes.scss */
+  91.666% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 118, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); } }
+
+@keyframes row-1-cell-4-after {
+  /* line 116, _keyframes.scss */
+  63.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 117, _keyframes.scss */
+  91.666% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 118, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); } }
+
+/* /cell 4 */
+/* cell 5 */
+@-webkit-keyframes row-1-cell-5-item-1 {
+  /* line 126, _keyframes.scss */
+  25% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 127, _keyframes.scss */
+  43.333% {
+    -webkit-transform: rotate(-55deg);
+    -moz-transform: rotate(-55deg);
+    -ms-transform: rotate(-55deg);
+    -o-transform: rotate(-55deg);
+    transform: rotate(-55deg); }
+
+  /* line 128, _keyframes.scss */
+  63.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 129, _keyframes.scss */
+  73.333% {
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg); }
+
+  /* line 130, _keyframes.scss */
+  83.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+
+@-moz-keyframes row-1-cell-5-item-1 {
+  /* line 126, _keyframes.scss */
+  25% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 127, _keyframes.scss */
+  43.333% {
+    -webkit-transform: rotate(-55deg);
+    -moz-transform: rotate(-55deg);
+    -ms-transform: rotate(-55deg);
+    -o-transform: rotate(-55deg);
+    transform: rotate(-55deg); }
+
+  /* line 128, _keyframes.scss */
+  63.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 129, _keyframes.scss */
+  73.333% {
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg); }
+
+  /* line 130, _keyframes.scss */
+  83.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+
+@-ms-keyframes row-1-cell-5-item-1 {
+  /* line 126, _keyframes.scss */
+  25% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 127, _keyframes.scss */
+  43.333% {
+    -webkit-transform: rotate(-55deg);
+    -moz-transform: rotate(-55deg);
+    -ms-transform: rotate(-55deg);
+    -o-transform: rotate(-55deg);
+    transform: rotate(-55deg); }
+
+  /* line 128, _keyframes.scss */
+  63.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 129, _keyframes.scss */
+  73.333% {
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg); }
+
+  /* line 130, _keyframes.scss */
+  83.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+
+@-o-keyframes row-1-cell-5-item-1 {
+  /* line 126, _keyframes.scss */
+  25% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 127, _keyframes.scss */
+  43.333% {
+    -webkit-transform: rotate(-55deg);
+    -moz-transform: rotate(-55deg);
+    -ms-transform: rotate(-55deg);
+    -o-transform: rotate(-55deg);
+    transform: rotate(-55deg); }
+
+  /* line 128, _keyframes.scss */
+  63.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 129, _keyframes.scss */
+  73.333% {
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg); }
+
+  /* line 130, _keyframes.scss */
+  83.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+
+@keyframes row-1-cell-5-item-1 {
+  /* line 126, _keyframes.scss */
+  25% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 127, _keyframes.scss */
+  43.333% {
+    -webkit-transform: rotate(-55deg);
+    -moz-transform: rotate(-55deg);
+    -ms-transform: rotate(-55deg);
+    -o-transform: rotate(-55deg);
+    transform: rotate(-55deg); }
+
+  /* line 128, _keyframes.scss */
+  63.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 129, _keyframes.scss */
+  73.333% {
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg); }
+
+  /* line 130, _keyframes.scss */
+  83.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+
+@-webkit-keyframes row-1-cell-5-item-2 {
+  /* line 134, _keyframes.scss */
+  38.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 135, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+
+@-moz-keyframes row-1-cell-5-item-2 {
+  /* line 134, _keyframes.scss */
+  38.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 135, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+
+@-ms-keyframes row-1-cell-5-item-2 {
+  /* line 134, _keyframes.scss */
+  38.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 135, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+
+@-o-keyframes row-1-cell-5-item-2 {
+  /* line 134, _keyframes.scss */
+  38.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 135, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+
+@keyframes row-1-cell-5-item-2 {
+  /* line 134, _keyframes.scss */
+  38.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 135, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+
+/* /cell 5 */
+/* /row 1 */
+/* row 2 */
+/* cell 1 */
+@-webkit-keyframes row-2-cell-1 {
+  /* line 147, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 148, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-moz-keyframes row-2-cell-1 {
+  /* line 147, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 148, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-ms-keyframes row-2-cell-1 {
+  /* line 147, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 148, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-o-keyframes row-2-cell-1 {
+  /* line 147, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 148, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes row-2-cell-1 {
+  /* line 147, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 148, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+/* /cell 1 */
+/* cell 2 */
+@-webkit-keyframes row-2-cell-2 {
+  /* line 156, _keyframes.scss */
+  26.666% {
+    left: 124px; }
+
+  /* line 157, _keyframes.scss */
+  50% {
+    left: 166px; }
+
+  /* line 158, _keyframes.scss */
+  73.333% {
+    left: 166px; } }
+
+@-moz-keyframes row-2-cell-2 {
+  /* line 156, _keyframes.scss */
+  26.666% {
+    left: 124px; }
+
+  /* line 157, _keyframes.scss */
+  50% {
+    left: 166px; }
+
+  /* line 158, _keyframes.scss */
+  73.333% {
+    left: 166px; } }
+
+@-ms-keyframes row-2-cell-2 {
+  /* line 156, _keyframes.scss */
+  26.666% {
+    left: 124px; }
+
+  /* line 157, _keyframes.scss */
+  50% {
+    left: 166px; }
+
+  /* line 158, _keyframes.scss */
+  73.333% {
+    left: 166px; } }
+
+@-o-keyframes row-2-cell-2 {
+  /* line 156, _keyframes.scss */
+  26.666% {
+    left: 124px; }
+
+  /* line 157, _keyframes.scss */
+  50% {
+    left: 166px; }
+
+  /* line 158, _keyframes.scss */
+  73.333% {
+    left: 166px; } }
+
+@keyframes row-2-cell-2 {
+  /* line 156, _keyframes.scss */
+  26.666% {
+    left: 124px; }
+
+  /* line 157, _keyframes.scss */
+  50% {
+    left: 166px; }
+
+  /* line 158, _keyframes.scss */
+  73.333% {
+    left: 166px; } }
+
+/* /cell 2 */
+/* cell 3 */
+@-webkit-keyframes row-2-cell-3 {
+  /* line 166, _keyframes.scss */
+  65% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); }
+
+  /* line 167, _keyframes.scss */
+  80% {
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%); }
+
+  /* line 168, _keyframes.scss */
+  95% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); } }
+
+@-moz-keyframes row-2-cell-3 {
+  /* line 166, _keyframes.scss */
+  65% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); }
+
+  /* line 167, _keyframes.scss */
+  80% {
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%); }
+
+  /* line 168, _keyframes.scss */
+  95% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); } }
+
+@-ms-keyframes row-2-cell-3 {
+  /* line 166, _keyframes.scss */
+  65% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); }
+
+  /* line 167, _keyframes.scss */
+  80% {
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%); }
+
+  /* line 168, _keyframes.scss */
+  95% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); } }
+
+@-o-keyframes row-2-cell-3 {
+  /* line 166, _keyframes.scss */
+  65% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); }
+
+  /* line 167, _keyframes.scss */
+  80% {
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%); }
+
+  /* line 168, _keyframes.scss */
+  95% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); } }
+
+@keyframes row-2-cell-3 {
+  /* line 166, _keyframes.scss */
+  65% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); }
+
+  /* line 167, _keyframes.scss */
+  80% {
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%); }
+
+  /* line 168, _keyframes.scss */
+  95% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); } }
+
+/* /cell 3 */
+/* cell 4 */
+@-webkit-keyframes row-2-cell-4 {
+  /* line 176, _keyframes.scss */
+  33.333% {
+    -webkit-transform: scale(0.75, 0.75);
+    -moz-transform: scale(0.75, 0.75);
+    -ms-transform: scale(0.75, 0.75);
+    -o-transform: scale(0.75, 0.75);
+    transform: scale(0.75, 0.75); }
+
+  /* line 177, _keyframes.scss */
+  66.666% {
+    -webkit-transform: scale(0.5, 0.5);
+    -moz-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5); } }
+
+@-moz-keyframes row-2-cell-4 {
+  /* line 176, _keyframes.scss */
+  33.333% {
+    -webkit-transform: scale(0.75, 0.75);
+    -moz-transform: scale(0.75, 0.75);
+    -ms-transform: scale(0.75, 0.75);
+    -o-transform: scale(0.75, 0.75);
+    transform: scale(0.75, 0.75); }
+
+  /* line 177, _keyframes.scss */
+  66.666% {
+    -webkit-transform: scale(0.5, 0.5);
+    -moz-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5); } }
+
+@-ms-keyframes row-2-cell-4 {
+  /* line 176, _keyframes.scss */
+  33.333% {
+    -webkit-transform: scale(0.75, 0.75);
+    -moz-transform: scale(0.75, 0.75);
+    -ms-transform: scale(0.75, 0.75);
+    -o-transform: scale(0.75, 0.75);
+    transform: scale(0.75, 0.75); }
+
+  /* line 177, _keyframes.scss */
+  66.666% {
+    -webkit-transform: scale(0.5, 0.5);
+    -moz-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5); } }
+
+@-o-keyframes row-2-cell-4 {
+  /* line 176, _keyframes.scss */
+  33.333% {
+    -webkit-transform: scale(0.75, 0.75);
+    -moz-transform: scale(0.75, 0.75);
+    -ms-transform: scale(0.75, 0.75);
+    -o-transform: scale(0.75, 0.75);
+    transform: scale(0.75, 0.75); }
+
+  /* line 177, _keyframes.scss */
+  66.666% {
+    -webkit-transform: scale(0.5, 0.5);
+    -moz-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5); } }
+
+@keyframes row-2-cell-4 {
+  /* line 176, _keyframes.scss */
+  33.333% {
+    -webkit-transform: scale(0.75, 0.75);
+    -moz-transform: scale(0.75, 0.75);
+    -ms-transform: scale(0.75, 0.75);
+    -o-transform: scale(0.75, 0.75);
+    transform: scale(0.75, 0.75); }
+
+  /* line 177, _keyframes.scss */
+  66.666% {
+    -webkit-transform: scale(0.5, 0.5);
+    -moz-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5); } }
+
+/* /cell 4 */
+/* cell 5 */
+@-webkit-keyframes row-2-cell-5 {
+  /* line 185, _keyframes.scss */
+  20% {
+    top: 166px; }
+
+  /* line 186, _keyframes.scss */
+  85% {
+    top: 166px; } }
+
+@-moz-keyframes row-2-cell-5 {
+  /* line 185, _keyframes.scss */
+  20% {
+    top: 166px; }
+
+  /* line 186, _keyframes.scss */
+  85% {
+    top: 166px; } }
+
+@-ms-keyframes row-2-cell-5 {
+  /* line 185, _keyframes.scss */
+  20% {
+    top: 166px; }
+
+  /* line 186, _keyframes.scss */
+  85% {
+    top: 166px; } }
+
+@-o-keyframes row-2-cell-5 {
+  /* line 185, _keyframes.scss */
+  20% {
+    top: 166px; }
+
+  /* line 186, _keyframes.scss */
+  85% {
+    top: 166px; } }
+
+@keyframes row-2-cell-5 {
+  /* line 185, _keyframes.scss */
+  20% {
+    top: 166px; }
+
+  /* line 186, _keyframes.scss */
+  85% {
+    top: 166px; } }
+
+/* /cell 5 */
+/* /row 2 */
+/* row 3 */
+/* cell 1 */
+@-webkit-keyframes row-3-cell-1 {
+  /* line 198, _keyframes.scss */
+  50% {
+    left: 154px;
+    -webkit-transform: rotate(374deg);
+    -moz-transform: rotate(374deg);
+    -ms-transform: rotate(374deg);
+    -o-transform: rotate(374deg);
+    transform: rotate(374deg); } }
+
+@-moz-keyframes row-3-cell-1 {
+  /* line 198, _keyframes.scss */
+  50% {
+    left: 154px;
+    -webkit-transform: rotate(374deg);
+    -moz-transform: rotate(374deg);
+    -ms-transform: rotate(374deg);
+    -o-transform: rotate(374deg);
+    transform: rotate(374deg); } }
+
+@-ms-keyframes row-3-cell-1 {
+  /* line 198, _keyframes.scss */
+  50% {
+    left: 154px;
+    -webkit-transform: rotate(374deg);
+    -moz-transform: rotate(374deg);
+    -ms-transform: rotate(374deg);
+    -o-transform: rotate(374deg);
+    transform: rotate(374deg); } }
+
+@-o-keyframes row-3-cell-1 {
+  /* line 198, _keyframes.scss */
+  50% {
+    left: 154px;
+    -webkit-transform: rotate(374deg);
+    -moz-transform: rotate(374deg);
+    -ms-transform: rotate(374deg);
+    -o-transform: rotate(374deg);
+    transform: rotate(374deg); } }
+
+@keyframes row-3-cell-1 {
+  /* line 198, _keyframes.scss */
+  50% {
+    left: 154px;
+    -webkit-transform: rotate(374deg);
+    -moz-transform: rotate(374deg);
+    -ms-transform: rotate(374deg);
+    -o-transform: rotate(374deg);
+    transform: rotate(374deg); } }
+
+/* before element */
+@-webkit-keyframes row-3-cell-1-before {
+  /* line 207, _keyframes.scss */
+  50% {
+    left: 46px; } }
+
+@-moz-keyframes row-3-cell-1-before {
+  /* line 207, _keyframes.scss */
+  50% {
+    left: 46px; } }
+
+@-ms-keyframes row-3-cell-1-before {
+  /* line 207, _keyframes.scss */
+  50% {
+    left: 46px; } }
+
+@-o-keyframes row-3-cell-1-before {
+  /* line 207, _keyframes.scss */
+  50% {
+    left: 46px; } }
+
+@keyframes row-3-cell-1-before {
+  /* line 207, _keyframes.scss */
+  50% {
+    left: 46px; } }
+
+/* /before element */
+/* after element */
+@-webkit-keyframes row-3-cell-1-after {
+  /* line 215, _keyframes.scss */
+  50% {
+    left: -46px; } }
+
+@-moz-keyframes row-3-cell-1-after {
+  /* line 215, _keyframes.scss */
+  50% {
+    left: -46px; } }
+
+@-ms-keyframes row-3-cell-1-after {
+  /* line 215, _keyframes.scss */
+  50% {
+    left: -46px; } }
+
+@-o-keyframes row-3-cell-1-after {
+  /* line 215, _keyframes.scss */
+  50% {
+    left: -46px; } }
+
+@keyframes row-3-cell-1-after {
+  /* line 215, _keyframes.scss */
+  50% {
+    left: -46px; } }
+
+/* /after element */
+/* /cell 1 */
+/* cell 2 */
+@-webkit-keyframes row-3-cell-2 {
+  /* line 225, _keyframes.scss */
+  50% {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%); } }
+
+@-moz-keyframes row-3-cell-2 {
+  /* line 225, _keyframes.scss */
+  50% {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%); } }
+
+@-ms-keyframes row-3-cell-2 {
+  /* line 225, _keyframes.scss */
+  50% {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%); } }
+
+@-o-keyframes row-3-cell-2 {
+  /* line 225, _keyframes.scss */
+  50% {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%); } }
+
+@keyframes row-3-cell-2 {
+  /* line 225, _keyframes.scss */
+  50% {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%); } }
+
+/* /cell 2 */
+/* cell 3 */
+@-webkit-keyframes row-3-cell-3 {
+  /* line 233, _keyframes.scss */
+  25% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 234, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 235, _keyframes.scss */
+  75% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+
+@-moz-keyframes row-3-cell-3 {
+  /* line 233, _keyframes.scss */
+  25% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 234, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 235, _keyframes.scss */
+  75% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+
+@-ms-keyframes row-3-cell-3 {
+  /* line 233, _keyframes.scss */
+  25% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 234, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 235, _keyframes.scss */
+  75% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+
+@-o-keyframes row-3-cell-3 {
+  /* line 233, _keyframes.scss */
+  25% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 234, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 235, _keyframes.scss */
+  75% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+
+@keyframes row-3-cell-3 {
+  /* line 233, _keyframes.scss */
+  25% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 234, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 235, _keyframes.scss */
+  75% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+
+/* /cell 3 */
+/* cell 4 */
+@-webkit-keyframes row-3-cell-4 {
+  /* line 243, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg); }
+
+  /* line 244, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+
+@-moz-keyframes row-3-cell-4 {
+  /* line 243, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg); }
+
+  /* line 244, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+
+@-ms-keyframes row-3-cell-4 {
+  /* line 243, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg); }
+
+  /* line 244, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+
+@-o-keyframes row-3-cell-4 {
+  /* line 243, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg); }
+
+  /* line 244, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+
+@keyframes row-3-cell-4 {
+  /* line 243, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg); }
+
+  /* line 244, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+
+/* /cell 4 */
+/* cell 5 */
+@-webkit-keyframes row-3-cell-5 {
+  /* line 252, _keyframes.scss */
+  20% {
+    border-width: 0 42px 104px 42px;
+    top: 188px; }
+
+  /* line 256, _keyframes.scss */
+  40% {
+    border-width: 0 42px 104px 42px;
+    top: 188px; }
+
+  /* line 260, _keyframes.scss */
+  50% {
+    border-width: 0 42px 20px 42px;
+    top: 272px; }
+
+  /* line 264, _keyframes.scss */
+  55% {
+    border-width: 0 42px 40px 42px;
+    top: 252px; }
+
+  /* line 268, _keyframes.scss */
+  60% {
+    border-width: 0 42px 26px 42px;
+    top: 266px; }
+
+  /* line 272, _keyframes.scss */
+  65% {
+    border-width: 0 42px 32px 42px;
+    top: 260px; } }
+
+@-moz-keyframes row-3-cell-5 {
+  /* line 252, _keyframes.scss */
+  20% {
+    border-width: 0 42px 104px 42px;
+    top: 188px; }
+
+  /* line 256, _keyframes.scss */
+  40% {
+    border-width: 0 42px 104px 42px;
+    top: 188px; }
+
+  /* line 260, _keyframes.scss */
+  50% {
+    border-width: 0 42px 20px 42px;
+    top: 272px; }
+
+  /* line 264, _keyframes.scss */
+  55% {
+    border-width: 0 42px 40px 42px;
+    top: 252px; }
+
+  /* line 268, _keyframes.scss */
+  60% {
+    border-width: 0 42px 26px 42px;
+    top: 266px; }
+
+  /* line 272, _keyframes.scss */
+  65% {
+    border-width: 0 42px 32px 42px;
+    top: 260px; } }
+
+@-ms-keyframes row-3-cell-5 {
+  /* line 252, _keyframes.scss */
+  20% {
+    border-width: 0 42px 104px 42px;
+    top: 188px; }
+
+  /* line 256, _keyframes.scss */
+  40% {
+    border-width: 0 42px 104px 42px;
+    top: 188px; }
+
+  /* line 260, _keyframes.scss */
+  50% {
+    border-width: 0 42px 20px 42px;
+    top: 272px; }
+
+  /* line 264, _keyframes.scss */
+  55% {
+    border-width: 0 42px 40px 42px;
+    top: 252px; }
+
+  /* line 268, _keyframes.scss */
+  60% {
+    border-width: 0 42px 26px 42px;
+    top: 266px; }
+
+  /* line 272, _keyframes.scss */
+  65% {
+    border-width: 0 42px 32px 42px;
+    top: 260px; } }
+
+@-o-keyframes row-3-cell-5 {
+  /* line 252, _keyframes.scss */
+  20% {
+    border-width: 0 42px 104px 42px;
+    top: 188px; }
+
+  /* line 256, _keyframes.scss */
+  40% {
+    border-width: 0 42px 104px 42px;
+    top: 188px; }
+
+  /* line 260, _keyframes.scss */
+  50% {
+    border-width: 0 42px 20px 42px;
+    top: 272px; }
+
+  /* line 264, _keyframes.scss */
+  55% {
+    border-width: 0 42px 40px 42px;
+    top: 252px; }
+
+  /* line 268, _keyframes.scss */
+  60% {
+    border-width: 0 42px 26px 42px;
+    top: 266px; }
+
+  /* line 272, _keyframes.scss */
+  65% {
+    border-width: 0 42px 32px 42px;
+    top: 260px; } }
+
+@keyframes row-3-cell-5 {
+  /* line 252, _keyframes.scss */
+  20% {
+    border-width: 0 42px 104px 42px;
+    top: 188px; }
+
+  /* line 256, _keyframes.scss */
+  40% {
+    border-width: 0 42px 104px 42px;
+    top: 188px; }
+
+  /* line 260, _keyframes.scss */
+  50% {
+    border-width: 0 42px 20px 42px;
+    top: 272px; }
+
+  /* line 264, _keyframes.scss */
+  55% {
+    border-width: 0 42px 40px 42px;
+    top: 252px; }
+
+  /* line 268, _keyframes.scss */
+  60% {
+    border-width: 0 42px 26px 42px;
+    top: 266px; }
+
+  /* line 272, _keyframes.scss */
+  65% {
+    border-width: 0 42px 32px 42px;
+    top: 260px; } }
+
+/* /cell 5 */
+/* /row 3 */
+/* row 4 */
+/* cell 1 */
+@-webkit-keyframes row-4-cell-1 {
+  /* line 287, _keyframes.scss */
+  20% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 288, _keyframes.scss */
+  60% {
+    -webkit-transform: rotate(450deg);
+    -moz-transform: rotate(450deg);
+    -ms-transform: rotate(450deg);
+    -o-transform: rotate(450deg);
+    transform: rotate(450deg); }
+
+  /* line 289, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(450deg);
+    -moz-transform: rotate(450deg);
+    -ms-transform: rotate(450deg);
+    -o-transform: rotate(450deg);
+    transform: rotate(450deg); } }
+
+@-moz-keyframes row-4-cell-1 {
+  /* line 287, _keyframes.scss */
+  20% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 288, _keyframes.scss */
+  60% {
+    -webkit-transform: rotate(450deg);
+    -moz-transform: rotate(450deg);
+    -ms-transform: rotate(450deg);
+    -o-transform: rotate(450deg);
+    transform: rotate(450deg); }
+
+  /* line 289, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(450deg);
+    -moz-transform: rotate(450deg);
+    -ms-transform: rotate(450deg);
+    -o-transform: rotate(450deg);
+    transform: rotate(450deg); } }
+
+@-ms-keyframes row-4-cell-1 {
+  /* line 287, _keyframes.scss */
+  20% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 288, _keyframes.scss */
+  60% {
+    -webkit-transform: rotate(450deg);
+    -moz-transform: rotate(450deg);
+    -ms-transform: rotate(450deg);
+    -o-transform: rotate(450deg);
+    transform: rotate(450deg); }
+
+  /* line 289, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(450deg);
+    -moz-transform: rotate(450deg);
+    -ms-transform: rotate(450deg);
+    -o-transform: rotate(450deg);
+    transform: rotate(450deg); } }
+
+@-o-keyframes row-4-cell-1 {
+  /* line 287, _keyframes.scss */
+  20% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 288, _keyframes.scss */
+  60% {
+    -webkit-transform: rotate(450deg);
+    -moz-transform: rotate(450deg);
+    -ms-transform: rotate(450deg);
+    -o-transform: rotate(450deg);
+    transform: rotate(450deg); }
+
+  /* line 289, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(450deg);
+    -moz-transform: rotate(450deg);
+    -ms-transform: rotate(450deg);
+    -o-transform: rotate(450deg);
+    transform: rotate(450deg); } }
+
+@keyframes row-4-cell-1 {
+  /* line 287, _keyframes.scss */
+  20% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 288, _keyframes.scss */
+  60% {
+    -webkit-transform: rotate(450deg);
+    -moz-transform: rotate(450deg);
+    -ms-transform: rotate(450deg);
+    -o-transform: rotate(450deg);
+    transform: rotate(450deg); }
+
+  /* line 289, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(450deg);
+    -moz-transform: rotate(450deg);
+    -ms-transform: rotate(450deg);
+    -o-transform: rotate(450deg);
+    transform: rotate(450deg); } }
+
+@-webkit-keyframes row-4-cell-1-item-1 {
+  /* line 293, _keyframes.scss */
+  20% {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1); }
+
+  /* line 294, _keyframes.scss */
+  35% {
+    -webkit-transform: scale(0.5, 0.5);
+    -moz-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5); }
+
+  /* line 295, _keyframes.scss */
+  46.666% {
+    -webkit-transform: scale(0.5, 0.5);
+    -moz-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5); }
+
+  /* line 296, _keyframes.scss */
+  60% {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1); } }
+
+@-moz-keyframes row-4-cell-1-item-1 {
+  /* line 293, _keyframes.scss */
+  20% {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1); }
+
+  /* line 294, _keyframes.scss */
+  35% {
+    -webkit-transform: scale(0.5, 0.5);
+    -moz-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5); }
+
+  /* line 295, _keyframes.scss */
+  46.666% {
+    -webkit-transform: scale(0.5, 0.5);
+    -moz-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5); }
+
+  /* line 296, _keyframes.scss */
+  60% {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1); } }
+
+@-ms-keyframes row-4-cell-1-item-1 {
+  /* line 293, _keyframes.scss */
+  20% {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1); }
+
+  /* line 294, _keyframes.scss */
+  35% {
+    -webkit-transform: scale(0.5, 0.5);
+    -moz-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5); }
+
+  /* line 295, _keyframes.scss */
+  46.666% {
+    -webkit-transform: scale(0.5, 0.5);
+    -moz-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5); }
+
+  /* line 296, _keyframes.scss */
+  60% {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1); } }
+
+@-o-keyframes row-4-cell-1-item-1 {
+  /* line 293, _keyframes.scss */
+  20% {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1); }
+
+  /* line 294, _keyframes.scss */
+  35% {
+    -webkit-transform: scale(0.5, 0.5);
+    -moz-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5); }
+
+  /* line 295, _keyframes.scss */
+  46.666% {
+    -webkit-transform: scale(0.5, 0.5);
+    -moz-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5); }
+
+  /* line 296, _keyframes.scss */
+  60% {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1); } }
+
+@keyframes row-4-cell-1-item-1 {
+  /* line 293, _keyframes.scss */
+  20% {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1); }
+
+  /* line 294, _keyframes.scss */
+  35% {
+    -webkit-transform: scale(0.5, 0.5);
+    -moz-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5); }
+
+  /* line 295, _keyframes.scss */
+  46.666% {
+    -webkit-transform: scale(0.5, 0.5);
+    -moz-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5); }
+
+  /* line 296, _keyframes.scss */
+  60% {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1); } }
+
+@-webkit-keyframes row-4-cell-1-item-2 {
+  /* line 300, _keyframes.scss */
+  5% {
+    right: -50%; }
+
+  /* line 301, _keyframes.scss */
+  21.666% {
+    right: 0; }
+
+  /* line 302, _keyframes.scss */
+  60% {
+    right: 0; }
+
+  /* line 303, _keyframes.scss */
+  76.666% {
+    right: -50%; } }
+
+@-moz-keyframes row-4-cell-1-item-2 {
+  /* line 300, _keyframes.scss */
+  5% {
+    right: -50%; }
+
+  /* line 301, _keyframes.scss */
+  21.666% {
+    right: 0; }
+
+  /* line 302, _keyframes.scss */
+  60% {
+    right: 0; }
+
+  /* line 303, _keyframes.scss */
+  76.666% {
+    right: -50%; } }
+
+@-ms-keyframes row-4-cell-1-item-2 {
+  /* line 300, _keyframes.scss */
+  5% {
+    right: -50%; }
+
+  /* line 301, _keyframes.scss */
+  21.666% {
+    right: 0; }
+
+  /* line 302, _keyframes.scss */
+  60% {
+    right: 0; }
+
+  /* line 303, _keyframes.scss */
+  76.666% {
+    right: -50%; } }
+
+@-o-keyframes row-4-cell-1-item-2 {
+  /* line 300, _keyframes.scss */
+  5% {
+    right: -50%; }
+
+  /* line 301, _keyframes.scss */
+  21.666% {
+    right: 0; }
+
+  /* line 302, _keyframes.scss */
+  60% {
+    right: 0; }
+
+  /* line 303, _keyframes.scss */
+  76.666% {
+    right: -50%; } }
+
+@keyframes row-4-cell-1-item-2 {
+  /* line 300, _keyframes.scss */
+  5% {
+    right: -50%; }
+
+  /* line 301, _keyframes.scss */
+  21.666% {
+    right: 0; }
+
+  /* line 302, _keyframes.scss */
+  60% {
+    right: 0; }
+
+  /* line 303, _keyframes.scss */
+  76.666% {
+    right: -50%; } }
+
+/* /cell 1 */
+/* cell 2 */
+@-webkit-keyframes row-4-cell-2 {
+  /* line 311, _keyframes.scss */
+  10% {
+    border-width: 30px; }
+
+  /* line 312, _keyframes.scss */
+  46% {
+    border-width: 12px; }
+
+  /* line 313, _keyframes.scss */
+  54% {
+    border-width: 12px; }
+
+  /* line 314, _keyframes.scss */
+  90% {
+    border-width: 30px; } }
+
+@-moz-keyframes row-4-cell-2 {
+  /* line 311, _keyframes.scss */
+  10% {
+    border-width: 30px; }
+
+  /* line 312, _keyframes.scss */
+  46% {
+    border-width: 12px; }
+
+  /* line 313, _keyframes.scss */
+  54% {
+    border-width: 12px; }
+
+  /* line 314, _keyframes.scss */
+  90% {
+    border-width: 30px; } }
+
+@-ms-keyframes row-4-cell-2 {
+  /* line 311, _keyframes.scss */
+  10% {
+    border-width: 30px; }
+
+  /* line 312, _keyframes.scss */
+  46% {
+    border-width: 12px; }
+
+  /* line 313, _keyframes.scss */
+  54% {
+    border-width: 12px; }
+
+  /* line 314, _keyframes.scss */
+  90% {
+    border-width: 30px; } }
+
+@-o-keyframes row-4-cell-2 {
+  /* line 311, _keyframes.scss */
+  10% {
+    border-width: 30px; }
+
+  /* line 312, _keyframes.scss */
+  46% {
+    border-width: 12px; }
+
+  /* line 313, _keyframes.scss */
+  54% {
+    border-width: 12px; }
+
+  /* line 314, _keyframes.scss */
+  90% {
+    border-width: 30px; } }
+
+@keyframes row-4-cell-2 {
+  /* line 311, _keyframes.scss */
+  10% {
+    border-width: 30px; }
+
+  /* line 312, _keyframes.scss */
+  46% {
+    border-width: 12px; }
+
+  /* line 313, _keyframes.scss */
+  54% {
+    border-width: 12px; }
+
+  /* line 314, _keyframes.scss */
+  90% {
+    border-width: 30px; } }
+
+/* /cell 2 */
+/* cell 3 */
+@-webkit-keyframes row-4-cell-3-after {
+  /* line 322, _keyframes.scss */
+  26.666% {
+    -webkit-transform: skewY(18deg);
+    -moz-transform: skewY(18deg);
+    -ms-transform: skewY(18deg);
+    -o-transform: skewY(18deg);
+    transform: skewY(18deg); }
+
+  /* line 323, _keyframes.scss */
+  36.666% {
+    -webkit-transform: skewY(18deg);
+    -moz-transform: skewY(18deg);
+    -ms-transform: skewY(18deg);
+    -o-transform: skewY(18deg);
+    transform: skewY(18deg); }
+
+  /* line 324, _keyframes.scss */
+  55% {
+    top: 72px; }
+
+  /* line 325, _keyframes.scss */
+  70% {
+    -webkit-transform: skewY(-11deg);
+    -moz-transform: skewY(-11deg);
+    -ms-transform: skewY(-11deg);
+    -o-transform: skewY(-11deg);
+    transform: skewY(-11deg); }
+
+  /* line 326, _keyframes.scss */
+  76.666% {
+    -webkit-transform: skewY(-11deg);
+    -moz-transform: skewY(-11deg);
+    -ms-transform: skewY(-11deg);
+    -o-transform: skewY(-11deg);
+    transform: skewY(-11deg); } }
+
+@-moz-keyframes row-4-cell-3-after {
+  /* line 322, _keyframes.scss */
+  26.666% {
+    -webkit-transform: skewY(18deg);
+    -moz-transform: skewY(18deg);
+    -ms-transform: skewY(18deg);
+    -o-transform: skewY(18deg);
+    transform: skewY(18deg); }
+
+  /* line 323, _keyframes.scss */
+  36.666% {
+    -webkit-transform: skewY(18deg);
+    -moz-transform: skewY(18deg);
+    -ms-transform: skewY(18deg);
+    -o-transform: skewY(18deg);
+    transform: skewY(18deg); }
+
+  /* line 324, _keyframes.scss */
+  55% {
+    top: 72px; }
+
+  /* line 325, _keyframes.scss */
+  70% {
+    -webkit-transform: skewY(-11deg);
+    -moz-transform: skewY(-11deg);
+    -ms-transform: skewY(-11deg);
+    -o-transform: skewY(-11deg);
+    transform: skewY(-11deg); }
+
+  /* line 326, _keyframes.scss */
+  76.666% {
+    -webkit-transform: skewY(-11deg);
+    -moz-transform: skewY(-11deg);
+    -ms-transform: skewY(-11deg);
+    -o-transform: skewY(-11deg);
+    transform: skewY(-11deg); } }
+
+@-ms-keyframes row-4-cell-3-after {
+  /* line 322, _keyframes.scss */
+  26.666% {
+    -webkit-transform: skewY(18deg);
+    -moz-transform: skewY(18deg);
+    -ms-transform: skewY(18deg);
+    -o-transform: skewY(18deg);
+    transform: skewY(18deg); }
+
+  /* line 323, _keyframes.scss */
+  36.666% {
+    -webkit-transform: skewY(18deg);
+    -moz-transform: skewY(18deg);
+    -ms-transform: skewY(18deg);
+    -o-transform: skewY(18deg);
+    transform: skewY(18deg); }
+
+  /* line 324, _keyframes.scss */
+  55% {
+    top: 72px; }
+
+  /* line 325, _keyframes.scss */
+  70% {
+    -webkit-transform: skewY(-11deg);
+    -moz-transform: skewY(-11deg);
+    -ms-transform: skewY(-11deg);
+    -o-transform: skewY(-11deg);
+    transform: skewY(-11deg); }
+
+  /* line 326, _keyframes.scss */
+  76.666% {
+    -webkit-transform: skewY(-11deg);
+    -moz-transform: skewY(-11deg);
+    -ms-transform: skewY(-11deg);
+    -o-transform: skewY(-11deg);
+    transform: skewY(-11deg); } }
+
+@-o-keyframes row-4-cell-3-after {
+  /* line 322, _keyframes.scss */
+  26.666% {
+    -webkit-transform: skewY(18deg);
+    -moz-transform: skewY(18deg);
+    -ms-transform: skewY(18deg);
+    -o-transform: skewY(18deg);
+    transform: skewY(18deg); }
+
+  /* line 323, _keyframes.scss */
+  36.666% {
+    -webkit-transform: skewY(18deg);
+    -moz-transform: skewY(18deg);
+    -ms-transform: skewY(18deg);
+    -o-transform: skewY(18deg);
+    transform: skewY(18deg); }
+
+  /* line 324, _keyframes.scss */
+  55% {
+    top: 72px; }
+
+  /* line 325, _keyframes.scss */
+  70% {
+    -webkit-transform: skewY(-11deg);
+    -moz-transform: skewY(-11deg);
+    -ms-transform: skewY(-11deg);
+    -o-transform: skewY(-11deg);
+    transform: skewY(-11deg); }
+
+  /* line 326, _keyframes.scss */
+  76.666% {
+    -webkit-transform: skewY(-11deg);
+    -moz-transform: skewY(-11deg);
+    -ms-transform: skewY(-11deg);
+    -o-transform: skewY(-11deg);
+    transform: skewY(-11deg); } }
+
+@keyframes row-4-cell-3-after {
+  /* line 322, _keyframes.scss */
+  26.666% {
+    -webkit-transform: skewY(18deg);
+    -moz-transform: skewY(18deg);
+    -ms-transform: skewY(18deg);
+    -o-transform: skewY(18deg);
+    transform: skewY(18deg); }
+
+  /* line 323, _keyframes.scss */
+  36.666% {
+    -webkit-transform: skewY(18deg);
+    -moz-transform: skewY(18deg);
+    -ms-transform: skewY(18deg);
+    -o-transform: skewY(18deg);
+    transform: skewY(18deg); }
+
+  /* line 324, _keyframes.scss */
+  55% {
+    top: 72px; }
+
+  /* line 325, _keyframes.scss */
+  70% {
+    -webkit-transform: skewY(-11deg);
+    -moz-transform: skewY(-11deg);
+    -ms-transform: skewY(-11deg);
+    -o-transform: skewY(-11deg);
+    transform: skewY(-11deg); }
+
+  /* line 326, _keyframes.scss */
+  76.666% {
+    -webkit-transform: skewY(-11deg);
+    -moz-transform: skewY(-11deg);
+    -ms-transform: skewY(-11deg);
+    -o-transform: skewY(-11deg);
+    transform: skewY(-11deg); } }
+
+/* /cell 3 */
+/* cell 4 */
+@-webkit-keyframes row-4-cell-4-before {
+  /* line 334, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 335, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); } }
+
+@-moz-keyframes row-4-cell-4-before {
+  /* line 334, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 335, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); } }
+
+@-ms-keyframes row-4-cell-4-before {
+  /* line 334, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 335, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); } }
+
+@-o-keyframes row-4-cell-4-before {
+  /* line 334, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 335, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); } }
+
+@keyframes row-4-cell-4-before {
+  /* line 334, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 335, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); } }
+
+@-webkit-keyframes row-4-cell-4-after {
+  /* line 339, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 340, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); } }
+
+@-moz-keyframes row-4-cell-4-after {
+  /* line 339, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 340, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); } }
+
+@-ms-keyframes row-4-cell-4-after {
+  /* line 339, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 340, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); } }
+
+@-o-keyframes row-4-cell-4-after {
+  /* line 339, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 340, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); } }
+
+@keyframes row-4-cell-4-after {
+  /* line 339, _keyframes.scss */
+  50% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 340, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); } }
+
+/* /cell 4 */
+/* cell 5 */
+@-webkit-keyframes row-4-cell-5-after {
+  /* line 348, _keyframes.scss */
+  6.666% {
+    width: 100%;
+    height: 100%;
+    left: 0; }
+
+  /* line 353, _keyframes.scss */
+  31.666% {
+    width: 300%;
+    height: 13px;
+    left: -200%; }
+
+  /* line 358, _keyframes.scss */
+  58.333% {
+    width: 200%;
+    height: 26px;
+    left: -100%; }
+
+  /* line 363, _keyframes.scss */
+  61.666% {
+    width: 200%;
+    height: 26px;
+    left: -100%; }
+
+  /* line 368, _keyframes.scss */
+  95% {
+    width: 100%;
+    height: 100%;
+    left: 0; } }
+
+@-moz-keyframes row-4-cell-5-after {
+  /* line 348, _keyframes.scss */
+  6.666% {
+    width: 100%;
+    height: 100%;
+    left: 0; }
+
+  /* line 353, _keyframes.scss */
+  31.666% {
+    width: 300%;
+    height: 13px;
+    left: -200%; }
+
+  /* line 358, _keyframes.scss */
+  58.333% {
+    width: 200%;
+    height: 26px;
+    left: -100%; }
+
+  /* line 363, _keyframes.scss */
+  61.666% {
+    width: 200%;
+    height: 26px;
+    left: -100%; }
+
+  /* line 368, _keyframes.scss */
+  95% {
+    width: 100%;
+    height: 100%;
+    left: 0; } }
+
+@-ms-keyframes row-4-cell-5-after {
+  /* line 348, _keyframes.scss */
+  6.666% {
+    width: 100%;
+    height: 100%;
+    left: 0; }
+
+  /* line 353, _keyframes.scss */
+  31.666% {
+    width: 300%;
+    height: 13px;
+    left: -200%; }
+
+  /* line 358, _keyframes.scss */
+  58.333% {
+    width: 200%;
+    height: 26px;
+    left: -100%; }
+
+  /* line 363, _keyframes.scss */
+  61.666% {
+    width: 200%;
+    height: 26px;
+    left: -100%; }
+
+  /* line 368, _keyframes.scss */
+  95% {
+    width: 100%;
+    height: 100%;
+    left: 0; } }
+
+@-o-keyframes row-4-cell-5-after {
+  /* line 348, _keyframes.scss */
+  6.666% {
+    width: 100%;
+    height: 100%;
+    left: 0; }
+
+  /* line 353, _keyframes.scss */
+  31.666% {
+    width: 300%;
+    height: 13px;
+    left: -200%; }
+
+  /* line 358, _keyframes.scss */
+  58.333% {
+    width: 200%;
+    height: 26px;
+    left: -100%; }
+
+  /* line 363, _keyframes.scss */
+  61.666% {
+    width: 200%;
+    height: 26px;
+    left: -100%; }
+
+  /* line 368, _keyframes.scss */
+  95% {
+    width: 100%;
+    height: 100%;
+    left: 0; } }
+
+@keyframes row-4-cell-5-after {
+  /* line 348, _keyframes.scss */
+  6.666% {
+    width: 100%;
+    height: 100%;
+    left: 0; }
+
+  /* line 353, _keyframes.scss */
+  31.666% {
+    width: 300%;
+    height: 13px;
+    left: -200%; }
+
+  /* line 358, _keyframes.scss */
+  58.333% {
+    width: 200%;
+    height: 26px;
+    left: -100%; }
+
+  /* line 363, _keyframes.scss */
+  61.666% {
+    width: 200%;
+    height: 26px;
+    left: -100%; }
+
+  /* line 368, _keyframes.scss */
+  95% {
+    width: 100%;
+    height: 100%;
+    left: 0; } }
+
+/* /cell 5 */
+/* /row 4 */
+/* row 5 */
+/* cell 1 */
+@-webkit-keyframes row-5-cell-1-item-1 {
+  /* line 384, _keyframes.scss */
+  20% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 385, _keyframes.scss */
+  80% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 386, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+
+@-moz-keyframes row-5-cell-1-item-1 {
+  /* line 384, _keyframes.scss */
+  20% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 385, _keyframes.scss */
+  80% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 386, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+
+@-ms-keyframes row-5-cell-1-item-1 {
+  /* line 384, _keyframes.scss */
+  20% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 385, _keyframes.scss */
+  80% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 386, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+
+@-o-keyframes row-5-cell-1-item-1 {
+  /* line 384, _keyframes.scss */
+  20% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 385, _keyframes.scss */
+  80% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 386, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+
+@keyframes row-5-cell-1-item-1 {
+  /* line 384, _keyframes.scss */
+  20% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 385, _keyframes.scss */
+  80% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 386, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+
+@-webkit-keyframes row-5-cell-1-item-2 {
+  /* line 390, _keyframes.scss */
+  26.666% {
+    bottom: 220px; }
+
+  /* line 391, _keyframes.scss */
+  55% {
+    bottom: -6px; }
+
+  /* line 392, _keyframes.scss */
+  75% {
+    bottom: 52px; } }
+
+@-moz-keyframes row-5-cell-1-item-2 {
+  /* line 390, _keyframes.scss */
+  26.666% {
+    bottom: 220px; }
+
+  /* line 391, _keyframes.scss */
+  55% {
+    bottom: -6px; }
+
+  /* line 392, _keyframes.scss */
+  75% {
+    bottom: 52px; } }
+
+@-ms-keyframes row-5-cell-1-item-2 {
+  /* line 390, _keyframes.scss */
+  26.666% {
+    bottom: 220px; }
+
+  /* line 391, _keyframes.scss */
+  55% {
+    bottom: -6px; }
+
+  /* line 392, _keyframes.scss */
+  75% {
+    bottom: 52px; } }
+
+@-o-keyframes row-5-cell-1-item-2 {
+  /* line 390, _keyframes.scss */
+  26.666% {
+    bottom: 220px; }
+
+  /* line 391, _keyframes.scss */
+  55% {
+    bottom: -6px; }
+
+  /* line 392, _keyframes.scss */
+  75% {
+    bottom: 52px; } }
+
+@keyframes row-5-cell-1-item-2 {
+  /* line 390, _keyframes.scss */
+  26.666% {
+    bottom: 220px; }
+
+  /* line 391, _keyframes.scss */
+  55% {
+    bottom: -6px; }
+
+  /* line 392, _keyframes.scss */
+  75% {
+    bottom: 52px; } }
+
+/* /cell 1 */
+/* cell 2 */
+@-webkit-keyframes row-5-cell-2-item-1 {
+  /* line 400, _keyframes.scss */
+  20% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 401, _keyframes.scss */
+  70% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 402, _keyframes.scss */
+  90% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+
+@-moz-keyframes row-5-cell-2-item-1 {
+  /* line 400, _keyframes.scss */
+  20% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 401, _keyframes.scss */
+  70% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 402, _keyframes.scss */
+  90% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+
+@-ms-keyframes row-5-cell-2-item-1 {
+  /* line 400, _keyframes.scss */
+  20% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 401, _keyframes.scss */
+  70% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 402, _keyframes.scss */
+  90% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+
+@-o-keyframes row-5-cell-2-item-1 {
+  /* line 400, _keyframes.scss */
+  20% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 401, _keyframes.scss */
+  70% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 402, _keyframes.scss */
+  90% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+
+@keyframes row-5-cell-2-item-1 {
+  /* line 400, _keyframes.scss */
+  20% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 401, _keyframes.scss */
+  70% {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  /* line 402, _keyframes.scss */
+  90% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+
+@-webkit-keyframes row-5-cell-2-item-2 {
+  /* line 406, _keyframes.scss */
+  28.333% {
+    bottom: -1px; }
+
+  /* line 407, _keyframes.scss */
+  50% {
+    bottom: 52px; }
+
+  /* line 408, _keyframes.scss */
+  71.333% {
+    bottom: -1px; } }
+
+@-moz-keyframes row-5-cell-2-item-2 {
+  /* line 406, _keyframes.scss */
+  28.333% {
+    bottom: -1px; }
+
+  /* line 407, _keyframes.scss */
+  50% {
+    bottom: 52px; }
+
+  /* line 408, _keyframes.scss */
+  71.333% {
+    bottom: -1px; } }
+
+@-ms-keyframes row-5-cell-2-item-2 {
+  /* line 406, _keyframes.scss */
+  28.333% {
+    bottom: -1px; }
+
+  /* line 407, _keyframes.scss */
+  50% {
+    bottom: 52px; }
+
+  /* line 408, _keyframes.scss */
+  71.333% {
+    bottom: -1px; } }
+
+@-o-keyframes row-5-cell-2-item-2 {
+  /* line 406, _keyframes.scss */
+  28.333% {
+    bottom: -1px; }
+
+  /* line 407, _keyframes.scss */
+  50% {
+    bottom: 52px; }
+
+  /* line 408, _keyframes.scss */
+  71.333% {
+    bottom: -1px; } }
+
+@keyframes row-5-cell-2-item-2 {
+  /* line 406, _keyframes.scss */
+  28.333% {
+    bottom: -1px; }
+
+  /* line 407, _keyframes.scss */
+  50% {
+    bottom: 52px; }
+
+  /* line 408, _keyframes.scss */
+  71.333% {
+    bottom: -1px; } }
+
+/* /cell 2 */
+/* cell 3 */
+@-webkit-keyframes row-5-cell-3 {
+  /* line 416, _keyframes.scss */
+  13.333% {
+    -webkit-transform: rotate(12deg);
+    -moz-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    -o-transform: rotate(12deg);
+    transform: rotate(12deg); }
+
+  /* line 417, _keyframes.scss */
+  26.666% {
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg); }
+
+  /* line 418, _keyframes.scss */
+  36.666% {
+    top: 376px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 422, _keyframes.scss */
+  43.333% {
+    top: 376px; }
+
+  /* line 423, _keyframes.scss */
+  60% {
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    -o-transform: rotate(4deg);
+    transform: rotate(4deg); }
+
+  /* line 424, _keyframes.scss */
+  65% {
+    top: 428px; }
+
+  /* line 425, _keyframes.scss */
+  75% {
+    top: 422px;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg); }
+
+  /* line 429, _keyframes.scss */
+  81.666% {
+    -webkit-transform: rotate(1deg);
+    -moz-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    -o-transform: rotate(1deg);
+    transform: rotate(1deg); }
+
+  /* line 430, _keyframes.scss */
+  85% {
+    top: 428px; }
+
+  /* line 431, _keyframes.scss */
+  88.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 432, _keyframes.scss */
+  93.333% {
+    top: 426px; } }
+
+@-moz-keyframes row-5-cell-3 {
+  /* line 416, _keyframes.scss */
+  13.333% {
+    -webkit-transform: rotate(12deg);
+    -moz-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    -o-transform: rotate(12deg);
+    transform: rotate(12deg); }
+
+  /* line 417, _keyframes.scss */
+  26.666% {
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg); }
+
+  /* line 418, _keyframes.scss */
+  36.666% {
+    top: 376px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 422, _keyframes.scss */
+  43.333% {
+    top: 376px; }
+
+  /* line 423, _keyframes.scss */
+  60% {
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    -o-transform: rotate(4deg);
+    transform: rotate(4deg); }
+
+  /* line 424, _keyframes.scss */
+  65% {
+    top: 428px; }
+
+  /* line 425, _keyframes.scss */
+  75% {
+    top: 422px;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg); }
+
+  /* line 429, _keyframes.scss */
+  81.666% {
+    -webkit-transform: rotate(1deg);
+    -moz-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    -o-transform: rotate(1deg);
+    transform: rotate(1deg); }
+
+  /* line 430, _keyframes.scss */
+  85% {
+    top: 428px; }
+
+  /* line 431, _keyframes.scss */
+  88.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 432, _keyframes.scss */
+  93.333% {
+    top: 426px; } }
+
+@-ms-keyframes row-5-cell-3 {
+  /* line 416, _keyframes.scss */
+  13.333% {
+    -webkit-transform: rotate(12deg);
+    -moz-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    -o-transform: rotate(12deg);
+    transform: rotate(12deg); }
+
+  /* line 417, _keyframes.scss */
+  26.666% {
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg); }
+
+  /* line 418, _keyframes.scss */
+  36.666% {
+    top: 376px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 422, _keyframes.scss */
+  43.333% {
+    top: 376px; }
+
+  /* line 423, _keyframes.scss */
+  60% {
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    -o-transform: rotate(4deg);
+    transform: rotate(4deg); }
+
+  /* line 424, _keyframes.scss */
+  65% {
+    top: 428px; }
+
+  /* line 425, _keyframes.scss */
+  75% {
+    top: 422px;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg); }
+
+  /* line 429, _keyframes.scss */
+  81.666% {
+    -webkit-transform: rotate(1deg);
+    -moz-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    -o-transform: rotate(1deg);
+    transform: rotate(1deg); }
+
+  /* line 430, _keyframes.scss */
+  85% {
+    top: 428px; }
+
+  /* line 431, _keyframes.scss */
+  88.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 432, _keyframes.scss */
+  93.333% {
+    top: 426px; } }
+
+@-o-keyframes row-5-cell-3 {
+  /* line 416, _keyframes.scss */
+  13.333% {
+    -webkit-transform: rotate(12deg);
+    -moz-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    -o-transform: rotate(12deg);
+    transform: rotate(12deg); }
+
+  /* line 417, _keyframes.scss */
+  26.666% {
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg); }
+
+  /* line 418, _keyframes.scss */
+  36.666% {
+    top: 376px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 422, _keyframes.scss */
+  43.333% {
+    top: 376px; }
+
+  /* line 423, _keyframes.scss */
+  60% {
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    -o-transform: rotate(4deg);
+    transform: rotate(4deg); }
+
+  /* line 424, _keyframes.scss */
+  65% {
+    top: 428px; }
+
+  /* line 425, _keyframes.scss */
+  75% {
+    top: 422px;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg); }
+
+  /* line 429, _keyframes.scss */
+  81.666% {
+    -webkit-transform: rotate(1deg);
+    -moz-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    -o-transform: rotate(1deg);
+    transform: rotate(1deg); }
+
+  /* line 430, _keyframes.scss */
+  85% {
+    top: 428px; }
+
+  /* line 431, _keyframes.scss */
+  88.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 432, _keyframes.scss */
+  93.333% {
+    top: 426px; } }
+
+@keyframes row-5-cell-3 {
+  /* line 416, _keyframes.scss */
+  13.333% {
+    -webkit-transform: rotate(12deg);
+    -moz-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    -o-transform: rotate(12deg);
+    transform: rotate(12deg); }
+
+  /* line 417, _keyframes.scss */
+  26.666% {
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg); }
+
+  /* line 418, _keyframes.scss */
+  36.666% {
+    top: 376px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 422, _keyframes.scss */
+  43.333% {
+    top: 376px; }
+
+  /* line 423, _keyframes.scss */
+  60% {
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    -o-transform: rotate(4deg);
+    transform: rotate(4deg); }
+
+  /* line 424, _keyframes.scss */
+  65% {
+    top: 428px; }
+
+  /* line 425, _keyframes.scss */
+  75% {
+    top: 422px;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg); }
+
+  /* line 429, _keyframes.scss */
+  81.666% {
+    -webkit-transform: rotate(1deg);
+    -moz-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    -o-transform: rotate(1deg);
+    transform: rotate(1deg); }
+
+  /* line 430, _keyframes.scss */
+  85% {
+    top: 428px; }
+
+  /* line 431, _keyframes.scss */
+  88.333% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 432, _keyframes.scss */
+  93.333% {
+    top: 426px; } }
+
+/* /cell 3 */
+/* cell 4 */
+@-webkit-keyframes row-5-cell-4 {
+  /* line 440, _keyframes.scss */
+  16.666% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 441, _keyframes.scss */
+  66.666% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  /* line 442, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-moz-keyframes row-5-cell-4 {
+  /* line 440, _keyframes.scss */
+  16.666% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 441, _keyframes.scss */
+  66.666% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  /* line 442, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-ms-keyframes row-5-cell-4 {
+  /* line 440, _keyframes.scss */
+  16.666% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 441, _keyframes.scss */
+  66.666% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  /* line 442, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-o-keyframes row-5-cell-4 {
+  /* line 440, _keyframes.scss */
+  16.666% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 441, _keyframes.scss */
+  66.666% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  /* line 442, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes row-5-cell-4 {
+  /* line 440, _keyframes.scss */
+  16.666% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 441, _keyframes.scss */
+  66.666% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  /* line 442, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-webkit-keyframes row-5-cell-4-item-1 {
+  /* line 446, _keyframes.scss */
+  16.666% {
+    left: 42px; }
+
+  /* line 447, _keyframes.scss */
+  66.666% {
+    left: 42px; }
+
+  /* line 448, _keyframes.scss */
+  83.333% {
+    left: 0; } }
+
+@-moz-keyframes row-5-cell-4-item-1 {
+  /* line 446, _keyframes.scss */
+  16.666% {
+    left: 42px; }
+
+  /* line 447, _keyframes.scss */
+  66.666% {
+    left: 42px; }
+
+  /* line 448, _keyframes.scss */
+  83.333% {
+    left: 0; } }
+
+@-ms-keyframes row-5-cell-4-item-1 {
+  /* line 446, _keyframes.scss */
+  16.666% {
+    left: 42px; }
+
+  /* line 447, _keyframes.scss */
+  66.666% {
+    left: 42px; }
+
+  /* line 448, _keyframes.scss */
+  83.333% {
+    left: 0; } }
+
+@-o-keyframes row-5-cell-4-item-1 {
+  /* line 446, _keyframes.scss */
+  16.666% {
+    left: 42px; }
+
+  /* line 447, _keyframes.scss */
+  66.666% {
+    left: 42px; }
+
+  /* line 448, _keyframes.scss */
+  83.333% {
+    left: 0; } }
+
+@keyframes row-5-cell-4-item-1 {
+  /* line 446, _keyframes.scss */
+  16.666% {
+    left: 42px; }
+
+  /* line 447, _keyframes.scss */
+  66.666% {
+    left: 42px; }
+
+  /* line 448, _keyframes.scss */
+  83.333% {
+    left: 0; } }
+
+@-webkit-keyframes row-5-cell-4-item-2 {
+  /* line 452, _keyframes.scss */
+  16.666% {
+    right: 42px; }
+
+  /* line 453, _keyframes.scss */
+  66.666% {
+    right: 42px; }
+
+  /* line 454, _keyframes.scss */
+  83.333% {
+    right: 0; } }
+
+@-moz-keyframes row-5-cell-4-item-2 {
+  /* line 452, _keyframes.scss */
+  16.666% {
+    right: 42px; }
+
+  /* line 453, _keyframes.scss */
+  66.666% {
+    right: 42px; }
+
+  /* line 454, _keyframes.scss */
+  83.333% {
+    right: 0; } }
+
+@-ms-keyframes row-5-cell-4-item-2 {
+  /* line 452, _keyframes.scss */
+  16.666% {
+    right: 42px; }
+
+  /* line 453, _keyframes.scss */
+  66.666% {
+    right: 42px; }
+
+  /* line 454, _keyframes.scss */
+  83.333% {
+    right: 0; } }
+
+@-o-keyframes row-5-cell-4-item-2 {
+  /* line 452, _keyframes.scss */
+  16.666% {
+    right: 42px; }
+
+  /* line 453, _keyframes.scss */
+  66.666% {
+    right: 42px; }
+
+  /* line 454, _keyframes.scss */
+  83.333% {
+    right: 0; } }
+
+@keyframes row-5-cell-4-item-2 {
+  /* line 452, _keyframes.scss */
+  16.666% {
+    right: 42px; }
+
+  /* line 453, _keyframes.scss */
+  66.666% {
+    right: 42px; }
+
+  /* line 454, _keyframes.scss */
+  83.333% {
+    right: 0; } }
+
+/* /cell 4 */
+/* cell 5 */
+@-webkit-keyframes row-5-cell-5 {
+  /* line 462, _keyframes.scss */
+  10% {
+    left: 418px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 466, _keyframes.scss */
+  50% {
+    left: 376px; }
+
+  /* line 467, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-540deg);
+    -moz-transform: rotate(-540deg);
+    -ms-transform: rotate(-540deg);
+    -o-transform: rotate(-540deg);
+    transform: rotate(-540deg); } }
+
+@-moz-keyframes row-5-cell-5 {
+  /* line 462, _keyframes.scss */
+  10% {
+    left: 418px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 466, _keyframes.scss */
+  50% {
+    left: 376px; }
+
+  /* line 467, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-540deg);
+    -moz-transform: rotate(-540deg);
+    -ms-transform: rotate(-540deg);
+    -o-transform: rotate(-540deg);
+    transform: rotate(-540deg); } }
+
+@-ms-keyframes row-5-cell-5 {
+  /* line 462, _keyframes.scss */
+  10% {
+    left: 418px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 466, _keyframes.scss */
+  50% {
+    left: 376px; }
+
+  /* line 467, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-540deg);
+    -moz-transform: rotate(-540deg);
+    -ms-transform: rotate(-540deg);
+    -o-transform: rotate(-540deg);
+    transform: rotate(-540deg); } }
+
+@-o-keyframes row-5-cell-5 {
+  /* line 462, _keyframes.scss */
+  10% {
+    left: 418px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 466, _keyframes.scss */
+  50% {
+    left: 376px; }
+
+  /* line 467, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-540deg);
+    -moz-transform: rotate(-540deg);
+    -ms-transform: rotate(-540deg);
+    -o-transform: rotate(-540deg);
+    transform: rotate(-540deg); } }
+
+@keyframes row-5-cell-5 {
+  /* line 462, _keyframes.scss */
+  10% {
+    left: 418px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 466, _keyframes.scss */
+  50% {
+    left: 376px; }
+
+  /* line 467, _keyframes.scss */
+  100% {
+    -webkit-transform: rotate(-540deg);
+    -moz-transform: rotate(-540deg);
+    -ms-transform: rotate(-540deg);
+    -o-transform: rotate(-540deg);
+    transform: rotate(-540deg); } }
+
+/* /cell 5 */
+/* /row 5 */
+/* /animation keyframes */
+/* /import animation keyframes */
+/* general page styles */
+/* line 62, style.scss */
+html {
+  background-color: #3a3a3a; }
+
+/* line 66, style.scss */
+html.delayed {
+  background-image: url(http://shapedance.beautifuluniquesnowflake.com/assets/images/low_contrast_linen.png); }
+
+/* line 70, style.scss */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  color: whitesmoke; }
+
+/* line 80, style.scss */
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #ebebeb; }
+  /* line 85, style.scss */
+  a:hover {
+    text-decoration: underline; }
+
+/* line 90, style.scss */
+.dance-floor {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -51.5%);
+  -moz-transform: translate(-50%, -51.5%);
+  -ms-transform: translate(-50%, -51.5%);
+  -o-transform: translate(-50%, -51.5%);
+  transform: translate(-50%, -51.5%);
+  border-radius: 16.8px;
+  background-color: #fff;
+  background-image: url(data:image/png;base64,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);
+  background-repeat: no-repeat;
+  background-position: 40px 40px;
+  -webkit-transition: background-image 1s, box-shadow 0.75s;
+  -moz-transition: background-image 1s, box-shadow 0.75s;
+  -ms-transition: background-image 1s, box-shadow 0.75s;
+  -o-transition: background-image 1s, box-shadow 0.75s;
+  transition: background-image 1s, box-shadow 0.75s; }
+
+/* line 106, style.scss */
+article {
+  width: 84px;
+  height: 84px;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  opacity: 0;
+  display: none; }
+
+/* line 117, style.scss */
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0; }
+
+/* line 123, style.scss */
+.music {
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: 0;
+  border-top-right-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.8); }
+
+/* line 132, style.scss */
+.play-overlay {
+  position: absolute;
+  left: 10px;
+  padding: 0.75em 1em;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 2em;
+  font-weight: bold;
+  opacity: 0;
+  bottom: -1000px;
+  -webkit-transition: opacity 0.25s, bottom 0s 0.5s;
+  -moz-transition: opacity 0.25s, bottom 0s 0.5s;
+  -ms-transition: opacity 0.25s, bottom 0s 0.5s;
+  -o-transition: opacity 0.25s, bottom 0s 0.5s;
+  transition: opacity 0.25s, bottom 0s 0.5s; }
+  /* line 146, style.scss */
+  .play-overlay:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 15px;
+    bottom: -20px;
+    border-right: 24px solid transparent;
+    border-top: 20px solid rgba(0, 0, 0, 0.6); }
+
+/* line 158, style.scss */
+.attribution {
+  position: absolute;
+  display: block;
+  right: 0;
+  bottom: 0;
+  padding: 0.4em 0.8em;
+  border-top-left-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  font-style: normal; }
+
+/* line 170, style.scss */
+.attribution-list {
+  margin: 0;
+  padding: 0; }
+  /* line 174, style.scss */
+  .attribution-list li {
+    display: inline;
+    list-style-type: none; }
+    /* line 178, style.scss */
+    .attribution-list li:before {
+      content: "|";
+      display: inline-block;
+      margin-left: 0.5em;
+      margin-right: 0.5em; }
+    /* line 185, style.scss */
+    .attribution-list li:first-child:before {
+      content: none; }
+
+/* line 191, style.scss */
+.about-link {
+  cursor: pointer; }
+
+/* line 198, style.scss */
+.about-link:hover + .about-overlay,
+.about-overlay:hover,
+.about-link:focus + .about-overlay,
+.about-overlay:focus {
+  bottom: 50px;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s 0s, bottom 0s 0s;
+  -moz-transition: opacity 0.5s 0s, bottom 0s 0s;
+  -ms-transition: opacity 0.5s 0s, bottom 0s 0s;
+  -o-transition: opacity 0.5s 0s, bottom 0s 0s;
+  transition: opacity 0.5s 0s, bottom 0s 0s; }
+
+/* line 205, style.scss */
+.about-overlay {
+  position: absolute;
+  min-width: 250px;
+  right: 10px;
+  padding: 1em;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  bottom: -1000px;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s 0.25s, bottom 0s 0.75s;
+  -moz-transition: opacity 0.5s 0.25s, bottom 0s 0.75s;
+  -ms-transition: opacity 0.5s 0.25s, bottom 0s 0.75s;
+  -o-transition: opacity 0.5s 0.25s, bottom 0s 0.75s;
+  transition: opacity 0.5s 0.25s, bottom 0s 0.75s; }
+  /* line 218, style.scss */
+  .about-overlay:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 20px;
+    bottom: -20px;
+    border-left: 24px solid transparent;
+    border-top: 20px solid rgba(0, 0, 0, 0.6); }
+  /* line 229, style.scss */
+  .about-overlay ul {
+    margin: 0;
+    padding: 0; }
+  /* line 234, style.scss */
+  .about-overlay li {
+    display: block;
+    list-style-type: none;
+    margin-top: 0.5em; }
+    /* line 239, style.scss */
+    .about-overlay li:first-child {
+      margin-top: 0; }
+    /* line 243, style.scss */
+    .about-overlay li:before {
+      content: none; }
+
+/* line 249, style.scss */
+.loading-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #3a3a3a;
+  opacity: 0.75;
+  background-image: url(data:image/gif;base64,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);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-transition: opacity 0.5s, bottom 0s 1s;
+  -moz-transition: opacity 0.5s, bottom 0s 1s;
+  -ms-transition: opacity 0.5s, bottom 0s 1s;
+  -o-transition: opacity 0.5s, bottom 0s 1s;
+  transition: opacity 0.5s, bottom 0s 1s; }
+
+/* state-specific styles */
+/* line 265, style.scss */
+.loaded .dance-floor {
+  background-image: url(data:image/png;base64,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);
+  box-shadow: 0 0 25px #fff; }
+/* line 269, style.scss */
+.loaded .loading-overlay {
+  opacity: 0;
+  bottom: 100%; }
+/* line 273, style.scss */
+.loaded .play-overlay {
+  bottom: 52px;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s, bottom 0s;
+  -moz-transition: opacity 0.5s, bottom 0s;
+  -ms-transition: opacity 0.5s, bottom 0s;
+  -o-transition: opacity 0.5s, bottom 0s;
+  transition: opacity 0.5s, bottom 0s; }
+
+/* line 282, style.scss */
+.played .dance-floor {
+  background-image: none;
+  -webkit-animation: dance-floor 2s infinite ease-in-out;
+  -moz-animation: dance-floor 2s infinite ease-in-out;
+  -ms-animation: dance-floor 2s infinite ease-in-out;
+  -o-animation: dance-floor 2s infinite ease-in-out;
+  animation: dance-floor 2s infinite ease-in-out; }
+/* line 287, style.scss */
+.played article {
+  display: block;
+  opacity: 1; }
+/* line 291, style.scss */
+.played.loaded .play-overlay {
+  bottom: -1000px;
+  opacity: 0;
+  -webkit-transition: opacity 0.25s, bottom 0s 0.5s;
+  -moz-transition: opacity 0.25s, bottom 0s 0.5s;
+  -ms-transition: opacity 0.25s, bottom 0s 0.5s;
+  -o-transition: opacity 0.25s, bottom 0s 0.5s;
+  transition: opacity 0.25s, bottom 0s 0.5s; }
+
+/* line 304, style.scss */
+.paused .dance-floor,
+.paused article,
+.paused article > div,
+.paused article:before,
+.paused article:after {
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused; }
+
+/* /state-specific styles */
+/* row & cell positioning */
+/* line 314, style.scss */
+article[class*="row-1"] {
+  top: 40px; }
+
+/* line 317, style.scss */
+article[class*="cell-1"] {
+  left: 40px; }
+
+/* line 314, style.scss */
+article[class*="row-2"] {
+  top: 124px; }
+
+/* line 317, style.scss */
+article[class*="cell-2"] {
+  left: 124px; }
+
+/* line 314, style.scss */
+article[class*="row-3"] {
+  top: 208px; }
+
+/* line 317, style.scss */
+article[class*="cell-3"] {
+  left: 208px; }
+
+/* line 314, style.scss */
+article[class*="row-4"] {
+  top: 292px; }
+
+/* line 317, style.scss */
+article[class*="cell-4"] {
+  left: 292px; }
+
+/* line 314, style.scss */
+article[class*="row-5"] {
+  top: 376px; }
+
+/* line 317, style.scss */
+article[class*="cell-5"] {
+  left: 376px; }
+
+/* /row & cell positioning */
+/* line 324, style.scss */
+div {
+  position: inherit; }
+
+/* line 328, style.scss */
+div[class^="item-"] {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  -ms-box-sizing: inherit;
+  -o-box-sizing: inherit;
+  box-sizing: inherit; }
+
+/* row 1 */
+/* line 337, style.scss */
+.row-1.cell-1 {
+  width: 42px;
+  height: 42px;
+  border: 10px solid rgba(195, 0, 11, 0.627);
+  -webkit-animation: row-1-cell-1 2s infinite ease-in-out;
+  -moz-animation: row-1-cell-1 2s infinite ease-in-out;
+  -ms-animation: row-1-cell-1 2s infinite ease-in-out;
+  -o-animation: row-1-cell-1 2s infinite ease-in-out;
+  animation: row-1-cell-1 2s infinite ease-in-out; }
+/* line 346, style.scss */
+.row-1.cell-2 {
+  height: 42px;
+  top: 82px;
+  border-bottom-left-radius: 42px;
+  border-bottom-right-radius: 42px;
+  background-color: rgba(0, 130, 68, 0.694);
+  -webkit-transform-origin: center bottom;
+  -moz-transform-origin: center bottom;
+  -ms-transform-origin: center bottom;
+  -o-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-animation: row-1-cell-2 2s infinite ease-in-out;
+  -moz-animation: row-1-cell-2 2s infinite ease-in-out;
+  -ms-animation: row-1-cell-2 2s infinite ease-in-out;
+  -o-animation: row-1-cell-2 2s infinite ease-in-out;
+  animation: row-1-cell-2 2s infinite ease-in-out; }
+  /* line 359, style.scss */
+  .row-1.cell-2:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 25%;
+    bottom: 100%;
+    border-radius: 21px;
+    background-color: rgba(0, 100, 163, 0.737);
+    -webkit-animation: row-1-cell-2-after 2s infinite ease-in-out;
+    -moz-animation: row-1-cell-2-after 2s infinite ease-in-out;
+    -ms-animation: row-1-cell-2-after 2s infinite ease-in-out;
+    -o-animation: row-1-cell-2-after 2s infinite ease-in-out;
+    animation: row-1-cell-2-after 2s infinite ease-in-out; }
+/* line 373, style.scss */
+.row-1.cell-3 {
+  -webkit-animation: row-1-cell-3 2s infinite linear;
+  -moz-animation: row-1-cell-3 2s infinite linear;
+  -ms-animation: row-1-cell-3 2s infinite linear;
+  -o-animation: row-1-cell-3 2s infinite linear;
+  animation: row-1-cell-3 2s infinite linear; }
+  /* line 379, style.scss */
+  .row-1.cell-3:before, .row-1.cell-3:after {
+    content: "";
+    width: 42px;
+    height: 42px;
+    display: block;
+    position: absolute; }
+  /* line 386, style.scss */
+  .row-1.cell-3:before {
+    left: 0;
+    top: 0;
+    border-top-left-radius: 42px;
+    background-color: rgba(223, 189, 0, 0.694); }
+  /* line 392, style.scss */
+  .row-1.cell-3:after {
+    right: 0;
+    bottom: 0;
+    border-bottom-right-radius: 42px;
+    background-color: rgba(0, 100, 163, 0.737); }
+/* line 399, style.scss */
+.row-1.cell-4 {
+  -webkit-animation: row-1-cell-4 2s infinite ease-in-out;
+  -moz-animation: row-1-cell-4 2s infinite ease-in-out;
+  -ms-animation: row-1-cell-4 2s infinite ease-in-out;
+  -o-animation: row-1-cell-4 2s infinite ease-in-out;
+  animation: row-1-cell-4 2s infinite ease-in-out; }
+  /* line 404, style.scss */
+  .row-1.cell-4:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 42px;
+    height: 100%;
+    left: 0;
+    background-color: rgba(195, 0, 11, 0.627);
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -ms-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+    -webkit-animation: row-1-cell-4-after 2s infinite ease-in-out;
+    -moz-animation: row-1-cell-4-after 2s infinite ease-in-out;
+    -ms-animation: row-1-cell-4-after 2s infinite ease-in-out;
+    -o-animation: row-1-cell-4-after 2s infinite ease-in-out;
+    animation: row-1-cell-4-after 2s infinite ease-in-out; }
+/* line 421, style.scss */
+.row-1.cell-5 .item-1 {
+  width: 0;
+  height: 0;
+  bottom: 0;
+  border-bottom: 42px solid rgba(0, 100, 163, 0.737);
+  border-right: 42px solid transparent;
+  -webkit-transform-origin: left top;
+  -moz-transform-origin: left top;
+  -ms-transform-origin: left top;
+  -o-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-animation: row-1-cell-5-item-1 2s infinite ease-in-out;
+  -moz-animation: row-1-cell-5-item-1 2s infinite ease-in-out;
+  -ms-animation: row-1-cell-5-item-1 2s infinite ease-in-out;
+  -o-animation: row-1-cell-5-item-1 2s infinite ease-in-out;
+  animation: row-1-cell-5-item-1 2s infinite ease-in-out; }
+/* line 433, style.scss */
+.row-1.cell-5 .item-2 {
+  width: 0;
+  height: 0;
+  right: 0;
+  top: 0;
+  border-bottom: 42px solid rgba(0, 130, 68, 0.694);
+  border-right: 42px solid transparent;
+  -webkit-transform-origin: left bottom;
+  -moz-transform-origin: left bottom;
+  -ms-transform-origin: left bottom;
+  -o-transform-origin: left bottom;
+  transform-origin: left bottom;
+  -webkit-animation: row-1-cell-5-item-2 2s infinite cubic-bezier(0.115, 0.055, 0, 1);
+  -moz-animation: row-1-cell-5-item-2 2s infinite cubic-bezier(0.115, 0.055, 0, 1);
+  -ms-animation: row-1-cell-5-item-2 2s infinite cubic-bezier(0.115, 0.055, 0, 1);
+  -o-animation: row-1-cell-5-item-2 2s infinite cubic-bezier(0.115, 0.055, 0, 1);
+  animation: row-1-cell-5-item-2 2s infinite cubic-bezier(0.115, 0.055, 0, 1); }
+
+/* /row 1 */
+/* row 2 */
+/* line 455, style.scss */
+.row-2.cell-1 {
+  border: 10px solid rgba(223, 189, 0, 0.694);
+  -webkit-animation: row-2-cell-1 2s infinite ease-in-out;
+  -moz-animation: row-2-cell-1 2s infinite ease-in-out;
+  -ms-animation: row-2-cell-1 2s infinite ease-in-out;
+  -o-animation: row-2-cell-1 2s infinite ease-in-out;
+  animation: row-2-cell-1 2s infinite ease-in-out; }
+/* line 462, style.scss */
+.row-2.cell-2 {
+  background-color: rgba(195, 0, 11, 0.627);
+  -webkit-animation: row-2-cell-2 2s infinite ease-in-out;
+  -moz-animation: row-2-cell-2 2s infinite ease-in-out;
+  -ms-animation: row-2-cell-2 2s infinite ease-in-out;
+  -o-animation: row-2-cell-2 2s infinite ease-in-out;
+  animation: row-2-cell-2 2s infinite ease-in-out; }
+/* line 469, style.scss */
+.row-2.cell-3 {
+  width: 0;
+  height: 0;
+  border-bottom: 84px solid rgba(223, 189, 0, 0.694);
+  border-left: 42px solid transparent;
+  border-right: 42px solid transparent;
+  -webkit-animation: row-2-cell-3 2s infinite ease-in-out;
+  -moz-animation: row-2-cell-3 2s infinite ease-in-out;
+  -ms-animation: row-2-cell-3 2s infinite ease-in-out;
+  -o-animation: row-2-cell-3 2s infinite ease-in-out;
+  animation: row-2-cell-3 2s infinite ease-in-out; }
+/* line 480, style.scss */
+.row-2.cell-4 {
+  background-color: rgba(0, 100, 163, 0.737);
+  border-radius: 42px;
+  -webkit-animation: row-2-cell-4 2s infinite ease-in-out;
+  -moz-animation: row-2-cell-4 2s infinite ease-in-out;
+  -ms-animation: row-2-cell-4 2s infinite ease-in-out;
+  -o-animation: row-2-cell-4 2s infinite ease-in-out;
+  animation: row-2-cell-4 2s infinite ease-in-out; }
+/* line 488, style.scss */
+.row-2.cell-5 {
+  width: 0;
+  height: 0;
+  top: 239px;
+  border-bottom: 42px solid rgba(195, 0, 11, 0.627);
+  border-left: 84px solid transparent;
+  -webkit-animation: row-2-cell-5 2s infinite ease-in-out;
+  -moz-animation: row-2-cell-5 2s infinite ease-in-out;
+  -ms-animation: row-2-cell-5 2s infinite ease-in-out;
+  -o-animation: row-2-cell-5 2s infinite ease-in-out;
+  animation: row-2-cell-5 2s infinite ease-in-out; }
+
+/* /row 2 */
+/* row 3 */
+/* line 508, style.scss */
+.row-3.cell-1 {
+  width: 22px;
+  height: 22px;
+  left: 72px;
+  top: 238px;
+  border-radius: 11px;
+  background-color: rgba(195, 0, 11, 0.627);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: row-3-cell-1 2s infinite ease-in-out;
+  -moz-animation: row-3-cell-1 2s infinite ease-in-out;
+  -ms-animation: row-3-cell-1 2s infinite ease-in-out;
+  -o-animation: row-3-cell-1 2s infinite ease-in-out;
+  animation: row-3-cell-1 2s infinite ease-in-out; }
+  /* line 523, style.scss */
+  .row-3.cell-1:before, .row-3.cell-1:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 13px;
+    border-radius: 11px;
+    background-color: rgba(0, 130, 68, 0.694);
+    /* chrome only seems to support the combined animation rule for psuedo element generated content, not the individual animation rule componenets. weird. */
+    -webkit-animation: row-3-cell-1-before 2s infinite ease-in-out;
+    -moz-animation: row-3-cell-1-before 2s infinite ease-in-out;
+    -ms-animation: row-3-cell-1-before 2s infinite ease-in-out;
+    -o-animation: row-3-cell-1-before 2s infinite ease-in-out;
+    animation: row-3-cell-1-before 2s infinite ease-in-out; }
+  /* line 536, style.scss */
+  .row-3.cell-1:after {
+    left: -13px;
+    -webkit-animation: row-3-cell-1-after 2s infinite ease-in-out;
+    -moz-animation: row-3-cell-1-after 2s infinite ease-in-out;
+    -ms-animation: row-3-cell-1-after 2s infinite ease-in-out;
+    -o-animation: row-3-cell-1-after 2s infinite ease-in-out;
+    animation: row-3-cell-1-after 2s infinite ease-in-out; }
+/* line 542, style.scss */
+.row-3.cell-2 {
+  height: 20px;
+  top: 272px;
+  background-color: rgba(0, 100, 163, 0.737);
+  -webkit-animation: row-3-cell-2 2s infinite ease-in-out;
+  -moz-animation: row-3-cell-2 2s infinite ease-in-out;
+  -ms-animation: row-3-cell-2 2s infinite ease-in-out;
+  -o-animation: row-3-cell-2 2s infinite ease-in-out;
+  animation: row-3-cell-2 2s infinite ease-in-out; }
+/* line 551, style.scss */
+.row-3.cell-3 {
+  width: 0;
+  height: 0;
+  border-bottom: 84px solid rgba(0, 130, 68, 0.694);
+  border-left: 84px solid transparent;
+  -webkit-animation: row-3-cell-3 2s infinite ease-in-out;
+  -moz-animation: row-3-cell-3 2s infinite ease-in-out;
+  -ms-animation: row-3-cell-3 2s infinite ease-in-out;
+  -o-animation: row-3-cell-3 2s infinite ease-in-out;
+  animation: row-3-cell-3 2s infinite ease-in-out; }
+/* line 561, style.scss */
+.row-3.cell-4 {
+  width: 10px;
+  left: 329px;
+  background-color: rgba(195, 0, 11, 0.627);
+  -webkit-animation: row-3-cell-4 2s infinite linear;
+  -moz-animation: row-3-cell-4 2s infinite linear;
+  -ms-animation: row-3-cell-4 2s infinite linear;
+  -o-animation: row-3-cell-4 2s infinite linear;
+  animation: row-3-cell-4 2s infinite linear; }
+/* line 570, style.scss */
+.row-3.cell-5 {
+  width: 0;
+  height: 0;
+  top: 260px;
+  border-color: transparent transparent rgba(0, 100, 163, 0.737) transparent;
+  border-width: 0 42px 32px 42px;
+  border-style: solid;
+  -webkit-animation: row-3-cell-5 2s infinite ease-in-out;
+  -moz-animation: row-3-cell-5 2s infinite ease-in-out;
+  -ms-animation: row-3-cell-5 2s infinite ease-in-out;
+  -o-animation: row-3-cell-5 2s infinite ease-in-out;
+  animation: row-3-cell-5 2s infinite ease-in-out; }
+
+/* /row 3 */
+/* row 4 */
+/* line 591, style.scss */
+.row-4.cell-1 {
+  width: 64px;
+  height: 64px;
+  top: 312px;
+  overflow: hidden;
+  -webkit-animation: row-4-cell-1 2s infinite ease-in-out;
+  -moz-animation: row-4-cell-1 2s infinite ease-in-out;
+  -ms-animation: row-4-cell-1 2s infinite ease-in-out;
+  -o-animation: row-4-cell-1 2s infinite ease-in-out;
+  animation: row-4-cell-1 2s infinite ease-in-out; }
+  /* line 601, style.scss */
+  .row-4.cell-1 .item-1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgba(195, 0, 11, 0.627);
+    -webkit-animation: row-4-cell-1-item-1 2s infinite ease-in-out;
+    -moz-animation: row-4-cell-1-item-1 2s infinite ease-in-out;
+    -ms-animation: row-4-cell-1-item-1 2s infinite ease-in-out;
+    -o-animation: row-4-cell-1-item-1 2s infinite ease-in-out;
+    animation: row-4-cell-1-item-1 2s infinite ease-in-out; }
+  /* line 609, style.scss */
+  .row-4.cell-1 .item-2 {
+    width: 50%;
+    height: 100%;
+    right: -50%;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    background-color: rgba(0, 100, 163, 0.737);
+    -webkit-animation: row-4-cell-1-item-2 2s infinite ease-in-out;
+    -moz-animation: row-4-cell-1-item-2 2s infinite ease-in-out;
+    -ms-animation: row-4-cell-1-item-2 2s infinite ease-in-out;
+    -o-animation: row-4-cell-1-item-2 2s infinite ease-in-out;
+    animation: row-4-cell-1-item-2 2s infinite ease-in-out; }
+  /* line 619, style.scss */
+  .row-4.cell-1 .mask {
+    width: 100%;
+    height: 100%;
+    left: -20px;
+    top: -20px;
+    border-radius: 50%;
+    border: 20px solid #fff; }
+/* line 628, style.scss */
+.row-4.cell-2 {
+  width: 74px;
+  height: 74px;
+  top: 302px;
+  border: 30px solid rgba(223, 189, 0, 0.694);
+  border-radius: 42px;
+  -webkit-animation: row-4-cell-2 2s infinite ease-in-out;
+  -moz-animation: row-4-cell-2 2s infinite ease-in-out;
+  -ms-animation: row-4-cell-2 2s infinite ease-in-out;
+  -o-animation: row-4-cell-2 2s infinite ease-in-out;
+  animation: row-4-cell-2 2s infinite ease-in-out; }
+/* line 639, style.scss */
+.row-4.cell-3 {
+  overflow: hidden; }
+  /* line 644, style.scss */
+  .row-4.cell-3:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 94px;
+    top: 10px;
+    background-color: rgba(0, 100, 163, 0.737);
+    -webkit-animation: row-4-cell-3-after 2s infinite ease-in-out;
+    -moz-animation: row-4-cell-3-after 2s infinite ease-in-out;
+    -ms-animation: row-4-cell-3-after 2s infinite ease-in-out;
+    -o-animation: row-4-cell-3-after 2s infinite ease-in-out;
+    animation: row-4-cell-3-after 2s infinite ease-in-out; }
+/* line 656, style.scss */
+.row-4.cell-4 {
+  height: 64px;
+  top: 312px;
+  overflow: hidden; }
+  /* line 664, style.scss */
+  .row-4.cell-4:before, .row-4.cell-4:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: rgba(195, 0, 11, 0.627); }
+  /* line 670, style.scss */
+  .row-4.cell-4:before {
+    width: 84px;
+    height: 126px;
+    top: -1px;
+    -webkit-transform-origin: left top;
+    -moz-transform-origin: left top;
+    -ms-transform-origin: left top;
+    -o-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-animation: row-4-cell-4-before 2s infinite linear;
+    -moz-animation: row-4-cell-4-before 2s infinite linear;
+    -ms-animation: row-4-cell-4-before 2s infinite linear;
+    -o-animation: row-4-cell-4-before 2s infinite linear;
+    animation: row-4-cell-4-before 2s infinite linear; }
+  /* line 679, style.scss */
+  .row-4.cell-4:after {
+    width: 84px;
+    height: 126px;
+    right: 100%;
+    -webkit-transform-origin: right top;
+    -moz-transform-origin: right top;
+    -ms-transform-origin: right top;
+    -o-transform-origin: right top;
+    transform-origin: right top;
+    -webkit-animation: row-4-cell-4-after 2s infinite linear;
+    -moz-animation: row-4-cell-4-after 2s infinite linear;
+    -ms-animation: row-4-cell-4-after 2s infinite linear;
+    -o-animation: row-4-cell-4-after 2s infinite linear;
+    animation: row-4-cell-4-after 2s infinite linear; }
+/* line 689, style.scss */
+.row-4.cell-5 {
+  height: 54px;
+  top: 322px; }
+  /* line 695, style.scss */
+  .row-4.cell-5:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background-color: rgba(223, 189, 0, 0.694);
+    -webkit-animation: row-4-cell-5-after 2s infinite ease-in-out;
+    -moz-animation: row-4-cell-5-after 2s infinite ease-in-out;
+    -ms-animation: row-4-cell-5-after 2s infinite ease-in-out;
+    -o-animation: row-4-cell-5-after 2s infinite ease-in-out;
+    animation: row-4-cell-5-after 2s infinite ease-in-out; }
+
+/* /row 4 */
+/* row 5 */
+/* line 719, style.scss */
+.row-5.cell-1 .item-1 {
+  width: 0;
+  height: 0;
+  border-bottom: 84px solid rgba(0, 130, 68, 0.694);
+  border-left: 84px solid transparent;
+  -webkit-transform-origin: right bottom;
+  -moz-transform-origin: right bottom;
+  -ms-transform-origin: right bottom;
+  -o-transform-origin: right bottom;
+  transform-origin: right bottom;
+  -webkit-animation: row-5-cell-1-item-1 2s infinite ease-in-out;
+  -moz-animation: row-5-cell-1-item-1 2s infinite ease-in-out;
+  -ms-animation: row-5-cell-1-item-1 2s infinite ease-in-out;
+  -o-animation: row-5-cell-1-item-1 2s infinite ease-in-out;
+  animation: row-5-cell-1-item-1 2s infinite ease-in-out; }
+/* line 729, style.scss */
+.row-5.cell-1 .item-2 {
+  width: 32px;
+  height: 32px;
+  bottom: 0;
+  border-radius: 16px;
+  background-color: rgba(0, 130, 68, 0.694);
+  -webkit-animation: row-5-cell-1-item-2 2s infinite ease-in-out;
+  -moz-animation: row-5-cell-1-item-2 2s infinite ease-in-out;
+  -ms-animation: row-5-cell-1-item-2 2s infinite ease-in-out;
+  -o-animation: row-5-cell-1-item-2 2s infinite ease-in-out;
+  animation: row-5-cell-1-item-2 2s infinite ease-in-out; }
+/* line 742, style.scss */
+.row-5.cell-2 .item-1 {
+  width: 0;
+  height: 0;
+  bottom: 0;
+  border-bottom: 42px solid rgba(195, 0, 11, 0.627);
+  border-right: 42px solid transparent;
+  -webkit-transform-origin: left bottom;
+  -moz-transform-origin: left bottom;
+  -ms-transform-origin: left bottom;
+  -o-transform-origin: left bottom;
+  transform-origin: left bottom;
+  -webkit-animation: row-5-cell-2-item-1 2s infinite ease-in-out;
+  -moz-animation: row-5-cell-2-item-1 2s infinite ease-in-out;
+  -ms-animation: row-5-cell-2-item-1 2s infinite ease-in-out;
+  -o-animation: row-5-cell-2-item-1 2s infinite ease-in-out;
+  animation: row-5-cell-2-item-1 2s infinite ease-in-out; }
+/* line 753, style.scss */
+.row-5.cell-2 .item-2 {
+  width: 32px;
+  height: 32px;
+  left: -32px;
+  bottom: 162px;
+  border-radius: 16px;
+  background-color: rgba(195, 0, 11, 0.627);
+  -webkit-animation: row-5-cell-2-item-2 2s infinite ease-in-out;
+  -moz-animation: row-5-cell-2-item-2 2s infinite ease-in-out;
+  -ms-animation: row-5-cell-2-item-2 2s infinite ease-in-out;
+  -o-animation: row-5-cell-2-item-2 2s infinite ease-in-out;
+  animation: row-5-cell-2-item-2 2s infinite ease-in-out; }
+/* line 764, style.scss */
+.row-5.cell-3 {
+  height: 32px;
+  top: 428px;
+  background-color: rgba(223, 189, 0, 0.694);
+  -webkit-animation: row-5-cell-3 2s infinite ease-in-out;
+  -moz-animation: row-5-cell-3 2s infinite ease-in-out;
+  -ms-animation: row-5-cell-3 2s infinite ease-in-out;
+  -o-animation: row-5-cell-3 2s infinite ease-in-out;
+  animation: row-5-cell-3 2s infinite ease-in-out; }
+/* line 773, style.scss */
+.row-5.cell-4 {
+  -webkit-animation: row-5-cell-4 2s infinite ease-in-out;
+  -moz-animation: row-5-cell-4 2s infinite ease-in-out;
+  -ms-animation: row-5-cell-4 2s infinite ease-in-out;
+  -o-animation: row-5-cell-4 2s infinite ease-in-out;
+  animation: row-5-cell-4 2s infinite ease-in-out; }
+  /* line 779, style.scss */
+  .row-5.cell-4 .item-1,
+  .row-5.cell-4 .item-2 {
+    width: 42px;
+    height: 42px; }
+  /* line 783, style.scss */
+  .row-5.cell-4 .item-1 {
+    left: 0;
+    top: 0;
+    border-top-right-radius: 42px;
+    background-color: rgba(223, 189, 0, 0.694);
+    -webkit-animation: row-5-cell-4-item-1 2s infinite ease-in-out;
+    -moz-animation: row-5-cell-4-item-1 2s infinite ease-in-out;
+    -ms-animation: row-5-cell-4-item-1 2s infinite ease-in-out;
+    -o-animation: row-5-cell-4-item-1 2s infinite ease-in-out;
+    animation: row-5-cell-4-item-1 2s infinite ease-in-out; }
+  /* line 791, style.scss */
+  .row-5.cell-4 .item-2 {
+    right: 0;
+    bottom: 0;
+    border-bottom-left-radius: 42px;
+    background-color: rgba(0, 130, 68, 0.694);
+    -webkit-animation: row-5-cell-4-item-2 2s infinite ease-in-out;
+    -moz-animation: row-5-cell-4-item-2 2s infinite ease-in-out;
+    -ms-animation: row-5-cell-4-item-2 2s infinite ease-in-out;
+    -o-animation: row-5-cell-4-item-2 2s infinite ease-in-out;
+    animation: row-5-cell-4-item-2 2s infinite ease-in-out; }
+/* line 800, style.scss */
+.row-5.cell-5 {
+  width: 42px;
+  left: 418px;
+  border: 10px solid rgba(195, 0, 11, 0.627);
+  -webkit-animation: row-5-cell-5 2s infinite ease-in-out;
+  -moz-animation: row-5-cell-5 2s infinite ease-in-out;
+  -ms-animation: row-5-cell-5 2s infinite ease-in-out;
+  -o-animation: row-5-cell-5 2s infinite ease-in-out;
+  animation: row-5-cell-5 2s infinite ease-in-out; }
+
+/* /row 5 */
+/* dev */
+/* /dev */
+/* /general page styles */
+/* responsive media queries */
+@media (min-width: 1025px) {
+  /* if larger than typical tablet display, aka desktop styles */ }
+@media (max-width: 480px) {
+  /* if smaller or equal to typical phone display, aka phone styles */ }

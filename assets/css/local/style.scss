@@ -1,0 +1,312 @@
+/* ==========================================================================
+   my custom styles
+   ========================================================================== */
+
+// mixins
+
+@mixin prefix($rule, $val) {
+	@each $browser in -webkit-, -moz-, -ms-, -o-, "" {
+		#{$browser}#{$rule}: $val;
+	}
+}
+
+@mixin clearfix {
+	&:after {
+		content: "";
+		display: block;
+		visibility: hidden;
+		height: 0;
+		clear: both;
+	}
+}
+
+// /mixins
+
+// color variables
+
+$red: rgba(195, 0, 11, 0.627);
+$green: rgba(0, 130, 68, 0.694);
+$blue: rgba(0, 100, 163, 0.737);
+$yellow: rgba(223, 189, 0, 0.694);
+
+// /color variables
+
+// size variables
+
+$cellSize: 84px;
+$tablePadding: 40px;
+
+// /size variables
+
+/* import animation keyframes */
+
+@import "keyframes";
+
+/* /import animation keyframes */
+
+/* helper styles */
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px,1px,1px,1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+.relative-container {
+    position: relative;
+}
+
+/* /helper styles */
+
+/* general page styles */
+
+html {
+	background-color: #3a3a3a;
+}
+
+html.delayed {
+	background-image: url(http://shapedance.beautifuluniquesnowflake.com/assets/images/low_contrast_linen.png);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	color: rgb(245, 245, 245);
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(235, 235, 235);
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+/* pbjCarousel plugin styles */
+
+.pbj-viewport {
+	position: relative;
+	height: 400px;
+
+	overflow: scroll;
+	//overflow: hidden;
+	border-style: solid;
+	border-radius: 4px;
+
+	@include prefix(transition, height 0.5s ease-in-out);
+
+	@include prefix(animation, fade-in 0.5s ease-in-out);
+}
+
+.pbj-inner {
+	width: 300%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	@include prefix(animation, fade-in 1.25s ease-in-out);
+
+	@include prefix(transform, translate3d(-33.333%, -33.333%, 0));
+
+	@include prefix(backface-visibility, hidden);
+
+	@include clearfix;
+}
+
+.pbj-move-up,
+.pbj-move-down,
+.pbj-move-left,
+.pbj-move-right {
+	-webkit-transition: -webkit-transform 1000ms;
+	-moz-transition: -moz-transform 1000ms;
+	-ms-transition: -ms-transform 1000ms;
+	-o-transition: -o-transform 1000ms;
+	transition: transform 1000ms;
+}
+
+.pbj-move-up {
+	@include prefix(transform, translate3d(-33.333%, 0, 0));
+
+	.pbj-img-container:first-child {
+		visibility: visible;
+	}
+}
+
+.pbj-move-down {
+	@include prefix(transform, translate3d(-33.333%, -66.666%, 0));
+
+	.pbj-img-container:last-child {
+		visibility: visible;
+	}
+}
+
+.pbj-move-left {
+	@include prefix(transform, translate3d(0%, -33.333%, 0));
+
+	.pbj-img-container:nth-child(2) {
+		visibility: visible;
+	}
+}
+
+.pbj-move-right {
+	@include prefix(transform, translate3d(-66.666%, -33.333%, 0));
+
+	.pbj-img-container:nth-child(4) {
+		visibility: visible;
+	}
+}
+
+.pbj-img-container {
+	display: block;
+	float: left;
+	text-align: center;
+	visibility: hidden;
+
+	&:nth-child(3) {
+		visibility: visible;
+	}
+
+	&:first-child,
+	&:last-child {
+		padding: 0 33.333%;
+	}
+}
+
+
+
+.pbj-img {
+	display: block;
+	position: relative;
+}
+
+/* tap target styles */
+
+.pbj-tap-map {
+	width: 100%;
+	height: 100%;
+    position: absolute;
+    top: 0;
+	left: 0;
+}
+
+.pbj-tap {
+    position: absolute;
+
+    // to disable the grey overlay when clicking a link on mobile safari/chrome
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.pbj-tap-e,
+.pbj-tap-n-2,
+.pbj-tap-s-2 {
+	left: 50%;
+}
+
+.pbj-tap-w,
+.pbj-tap-e {
+	width: 50%;
+    height: 100%;
+}
+
+.pbj-tap-n,
+.pbj-tap-s {
+	width: 100%;
+    height: 50%;
+}
+
+.pbj-tap-n-1,
+.pbj-tap-n-2,
+.pbj-tap-s-1,
+.pbj-tap-s-2 {
+	width: 25%;
+	height: 33.333%;
+}
+
+.pbj-shaped {
+	&.pbj-tap-n-1,
+	&.pbj-tap-n-2,
+	&.pbj-tap-s-1,
+	&.pbj-tap-s-2 {
+		width: 50%;
+		height: 50%;
+
+	}
+}
+
+.pbj-tap-n-1,
+.pbj-tap-s-1 {
+	right: 50%;
+	-webkit-transform-origin-x: right;
+}
+
+.pbj-tap-n-2,
+.pbj-tap-s-2 {
+	-webkit-transform-origin-x: left;
+}
+
+.pbj-tap-w {
+	cursor: w-resize;
+}
+
+.pbj-tap-e {
+    cursor: e-resize;
+}
+
+.pbj-tap-n {
+	-webkit-transform-origin-y: bottom;
+	cursor: n-resize;
+}
+
+.pbj-tap-s {
+    bottom: 0;
+    -webkit-transform-origin-y: top;
+    cursor: s-resize;
+}
+
+/* /tap target styles */
+
+/* /pbjCarousel plugin styles */
+
+/* state-specific styles */
+
+.delayed {
+
+}
+
+/* /state-specific styles */
+
+
+
+/* dev */
+
+body {
+	padding: 1em;
+}
+
+/* /dev */
+
+/* /general page styles */
+
+/* responsive media queries */
+
+@media (min-width: 1025px) { /* if larger than typical tablet display, aka desktop styles */
+
+
+
+}
+
+@media (max-width: 480px) { /* if smaller or equal to typical phone display, aka phone styles */
+
+
+
+}
